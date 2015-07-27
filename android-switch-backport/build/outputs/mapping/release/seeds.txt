@@ -1,0 +1,55 @@
+org.jraf.android.backport.switchwidget.Switch
+org.jraf.android.backport.switchwidget.Switch: Switch(android.content.Context)
+org.jraf.android.backport.switchwidget.Switch: Switch(android.content.Context,android.util.AttributeSet)
+org.jraf.android.backport.switchwidget.Switch: Switch(android.content.Context,android.util.AttributeSet,int)
+org.jraf.android.backport.switchwidget.Switch: void setSwitchTypeface(android.graphics.Typeface)
+org.jraf.android.backport.switchwidget.Switch: java.lang.CharSequence getTextOn()
+org.jraf.android.backport.switchwidget.Switch: void setTextOn(java.lang.CharSequence)
+org.jraf.android.backport.switchwidget.Switch: java.lang.CharSequence getTextOff()
+org.jraf.android.backport.switchwidget.Switch: void setTextOff(java.lang.CharSequence)
+org.jraf.android.backport.switchwidget.Switch: boolean getTargetCheckedState()
+org.jraf.android.backport.switchwidget.Switch: void setChecked(boolean)
+org.jraf.android.backport.switchwidget.Switch: int getCompoundPaddingRight()
+org.jraf.android.backport.switchwidget.Switch: int getThumbScrollRange()
+org.jraf.android.backport.switchwidget.SwitchPreference
+org.jraf.android.backport.switchwidget.SwitchPreference: java.lang.CharSequence mSwitchOn
+org.jraf.android.backport.switchwidget.SwitchPreference: java.lang.CharSequence mSwitchOff
+org.jraf.android.backport.switchwidget.SwitchPreference: org.jraf.android.backport.switchwidget.SwitchPreference$Listener mListener
+org.jraf.android.backport.switchwidget.SwitchPreference: SwitchPreference(android.content.Context,android.util.AttributeSet,int)
+org.jraf.android.backport.switchwidget.SwitchPreference: SwitchPreference(android.content.Context,android.util.AttributeSet)
+org.jraf.android.backport.switchwidget.SwitchPreference: SwitchPreference(android.content.Context)
+org.jraf.android.backport.switchwidget.SwitchPreference: void onBindView(android.view.View)
+org.jraf.android.backport.switchwidget.SwitchPreference: void setSwitchTextOn(java.lang.CharSequence)
+org.jraf.android.backport.switchwidget.SwitchPreference: void setSwitchTextOff(java.lang.CharSequence)
+org.jraf.android.backport.switchwidget.SwitchPreference: void setSwitchTextOn(int)
+org.jraf.android.backport.switchwidget.SwitchPreference: void setSwitchTextOff(int)
+org.jraf.android.backport.switchwidget.SwitchPreference: java.lang.CharSequence getSwitchTextOn()
+org.jraf.android.backport.switchwidget.SwitchPreference: java.lang.CharSequence getSwitchTextOff()
+org.jraf.android.backport.switchwidget.SwitchPreference: boolean access$100(org.jraf.android.backport.switchwidget.SwitchPreference,java.lang.Object)
+org.jraf.android.backport.switchwidget.TwoStatePreference
+org.jraf.android.backport.switchwidget.TwoStatePreference: java.lang.CharSequence mSummaryOn
+org.jraf.android.backport.switchwidget.TwoStatePreference: java.lang.CharSequence mSummaryOff
+org.jraf.android.backport.switchwidget.TwoStatePreference: boolean mChecked
+org.jraf.android.backport.switchwidget.TwoStatePreference: boolean mDisableDependentsState
+org.jraf.android.backport.switchwidget.TwoStatePreference: TwoStatePreference(android.content.Context,android.util.AttributeSet,int)
+org.jraf.android.backport.switchwidget.TwoStatePreference: TwoStatePreference(android.content.Context,android.util.AttributeSet)
+org.jraf.android.backport.switchwidget.TwoStatePreference: TwoStatePreference(android.content.Context)
+org.jraf.android.backport.switchwidget.TwoStatePreference: void onClick()
+org.jraf.android.backport.switchwidget.TwoStatePreference: void setChecked(boolean)
+org.jraf.android.backport.switchwidget.TwoStatePreference: boolean isChecked()
+org.jraf.android.backport.switchwidget.TwoStatePreference: boolean shouldDisableDependents()
+org.jraf.android.backport.switchwidget.TwoStatePreference: void setSummaryOn(java.lang.CharSequence)
+org.jraf.android.backport.switchwidget.TwoStatePreference: void setSummaryOn(int)
+org.jraf.android.backport.switchwidget.TwoStatePreference: java.lang.CharSequence getSummaryOn()
+org.jraf.android.backport.switchwidget.TwoStatePreference: void setSummaryOff(java.lang.CharSequence)
+org.jraf.android.backport.switchwidget.TwoStatePreference: void setSummaryOff(int)
+org.jraf.android.backport.switchwidget.TwoStatePreference: java.lang.CharSequence getSummaryOff()
+org.jraf.android.backport.switchwidget.TwoStatePreference: boolean getDisableDependentsState()
+org.jraf.android.backport.switchwidget.TwoStatePreference: void setDisableDependentsState(boolean)
+org.jraf.android.backport.switchwidget.TwoStatePreference: java.lang.Object onGetDefaultValue(android.content.res.TypedArray,int)
+org.jraf.android.backport.switchwidget.TwoStatePreference: void onSetInitialValue(boolean,java.lang.Object)
+org.jraf.android.backport.switchwidget.TwoStatePreference: void syncSummaryView(android.view.View)
+org.jraf.android.backport.switchwidget.TwoStatePreference: android.os.Parcelable onSaveInstanceState()
+org.jraf.android.backport.switchwidget.TwoStatePreference: void onRestoreInstanceState(android.os.Parcelable)
+org.jraf.android.backport.switchwidget.TwoStatePreference$SavedState
+org.jraf.android.backport.switchwidget.TwoStatePreference$SavedState: android.os.Parcelable$Creator CREATOR

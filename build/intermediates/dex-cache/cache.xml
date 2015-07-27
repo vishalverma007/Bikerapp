@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\libs\simple.facebook-2.1.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="9a197f31cff950884d322ee0bd6bf3b15a221e32">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\simple.facebook-2.1-ec6874db61263840bb169439d8ac44d8a051e206.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\libs\bugsense-3.6.1.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="bf354591194bef969ec162609bd1cc279d2d113b">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\bugsense-3.6.1-407b59b0a1801ba83d0c4c23e0127cebe90df3df.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\libs\httpclient-4.3.5.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="9783d89b8eea20a517a4afc5f979bd2882b54c44">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\httpclient-4.3.5-cf311764650aae341cc190117adee07e0753dc90.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-b32accff9fc909776abee0017bdc64b4ab357126.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\RSB\cropLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="37e2da81d0d3de0b19d08b47deef4ca27f4e7470">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-525b2dfa8a98f1b0d63d0790be5a73371664e158.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\libs\httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\httpcore-4.3.2-0e918835fc456d0acaa4e82f4b3ddb1a5d353823.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\libs\httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\httpcore-4.3.2-33e981f12b6ad8e00b5a9436b480fb33e4a1981b.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\RS\circularImageView\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="6a514f49850a3e33282a7cf73d324443a1571906">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-830c373a4da11b994bd8f0f3a57dbffdb238d159.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\RS\devsmartAndroid\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="6c61ecdada37fa903a95f87062ca92c584eacc65">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-bd1dca32947d543bf9f1e77321d34d15c5c6e676.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\org.jraf\android-switch-backport\1.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="f755aa055e2025e8d9e842e15bf0a567a6d4e256">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-9d97d2f2de25af353cb1daa01b0282636156c192.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\RSB\devsmartAndroid\unspecified\jars\libs\CWAC-SackOfViewsAdapter.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="c514a41a4d82b75c692e161557fb3a493964794f">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\CWAC-SackOfViewsAdapter-16742770b3ac9e1b701c26617fbe3f48ec573fef.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\RSB\circularImageView\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="b2a11b27e29f9f0993ef6c68b10a6a6cd07d6d72">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-6c6c870dac8432a7cc63b883e76369dab4059d7f.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\com.stripe\stripe-android\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="978fc15c7c15c6f50a47b6e990c6a7e9288ac60c">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-b5ec2530376684f857aaf770c189c544d6080deb.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-d635d01d3a0bd54bbee3e4ad84fbda03776ae5ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\libs\simple.facebook-2.1.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="9a197f31cff950884d322ee0bd6bf3b15a221e32">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\simple.facebook-2.1-5aea76d45ce60e869587ee7461b214f3cf4d7291.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\libs\bugsense-3.6.1.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="bf354591194bef969ec162609bd1cc279d2d113b">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\bugsense-3.6.1-d9b5509d8722c161a629207b855c80e43bd350f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\com.stripe\stripe-android\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="978fc15c7c15c6f50a47b6e990c6a7e9288ac60c">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-8d909a9d10861f75759f84a77553c54417a6019b.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\libs\android-query.0.26.7.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="aa997823bc89263500714864ff136de1e6025b4e">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\android-query.0.26.7-77b55d590c05c15a5420f8f88b514fae36a46b83.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.19.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="347db16fd3571d7eec0482232e9c363f839e27d7">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-8f50a92643f3bce1960a5cdae567159d68116df4.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\libs\gcm.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\gcm-da41ce427e00351fdd068a4b2fde5cdd072d6162.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\3.19.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="347db16fd3571d7eec0482232e9c363f839e27d7">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-e0757f54f26e01045ce2f4b92a23259c7577c691.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\RSB\devsmartAndroid\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="10c5539ded62a435fd7085da750800a8d79323ad">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-d0a89a30348d81a732f7dc298d9a5850aa4291af.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-6b35a2392f4116d89cc45d9c28b647b2189d5fc0.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\RS\cropLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="4250c7cbc63694dc8dc217ba16fa2e985f9422cc">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-0b740a0ec8ae803206d753ad3eaecacb3db6f244.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-cd68307860e3744123654edc941ca0f746dead8d.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\RS\menudrawer\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="09e72d630e2190a0886140afc849335b20162851">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-9f3598fbf841721abda10dbeb871083331236da8.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-137d22035101610d46769423cfacc8869a7dc17f.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\libs\httpmime-4.3.5.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\httpmime-4.3.5-592cab95ee263e7106e59c635308e66b0edbb821.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\libs\android-query.0.26.7.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="aa997823bc89263500714864ff136de1e6025b4e">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\android-query.0.26.7-4ae8e7944ec6a00860e1e5324bed9b0dc507f0c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\.gradle\caches\modules-2\files-2.1\com.stripe\stripe-java\1.15.1\a93ce4be4cca79ab3b591eb77064fbe803d696a1\stripe-java-1.15.1.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a93ce4be4cca79ab3b591eb77064fbe803d696a1">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\stripe-java-1.15.1-f654441c0cff0bcec0428f2ee9b449960838c952.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-89c67ffde806fd8704fa5aad2e238ef551592aac.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\libs\splunk-mint-4.0.5.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a413f71d8f8e0d34153e387746388f4fbcdd3067">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\splunk-mint-4.0.5-289286d7ad3766b77992d251992bbb5201d4598b.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\RSB\menudrawer\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="de20da223e0f70c095d55fdb18f10ceee810ebf4">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-5979b087a238d12e5c8963b78ecc9e24d82c9608.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.2.42\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="e5f81129dfb3d02df80126512bc98278ed2bb40a">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-5d54c643e62e7318a0f63f3c907c5555cc007790.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.2.42\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="e5f81129dfb3d02df80126512bc98278ed2bb40a">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-6683a66781936dc52962141ac00d26328d85f32e.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\libs\httpmime-4.3.5.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\httpmime-4.3.5-854ca52290d8496a73e9c379c7413e4a7942e1b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\RS\library_pinnlistivew\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="74dab4327a1d725175923f8e30f475a8fa5b24bb">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-efec537ee37bd14029e0bfa7e3f234443caa9717.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\org.jraf\android-switch-backport\1.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="e6bb9a30c733b085e71aa37a63a80bb9b3ffec75">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-b0e22d41f03dd294d00575d3980cba06e2640ace.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\libs\apache-mime4j-core-0.7.2.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\apache-mime4j-core-0.7.2-a302c4b4385065208311a6c99ac28cf53d047b30.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\libs\gcm.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\gcm-70f66f58e2e0f0cfee844a4dc9bb105cbcebaed4.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\RSB\library_pinnlistivew\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="bb91aa4c2219fc45f8b56d11a80087aa6c13ded9">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-5606679bfabe497ba5a9f262518a8254180a275f.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\classes-5c15537d1e83f36941509403380b984b5f1c8760.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\classes-f2b490869fe550b1331f4e7dbb836564c96c6540.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\libs\httpclient-4.3.5.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="9783d89b8eea20a517a4afc5f979bd2882b54c44">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\httpclient-4.3.5-918430ee51801058b6aa047dcd549c4eda23831e.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\libs\splunk-mint-4.0.5.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a413f71d8f8e0d34153e387746388f4fbcdd3067">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\splunk-mint-4.0.5-6aa41d409103ebf5ea828b6810025176bb6df170.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\libs\apache-mime4j-core-0.7.2.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\apache-mime4j-core-0.7.2-72cb124f20a957b7d3a7410a810f21df876ec0d3.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\gson-2.2.4-6aaaa0a6ea1dcda2d5a52b7053dc90d67e63ff65.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\VISHAL\Desktop\RSB\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-28adbd754a6b52e9ce353bf5f58b3deb6ea473a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\exploded-aar\RS\devsmartAndroid\unspecified\jars\libs\CWAC-SackOfViewsAdapter.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="c514a41a4d82b75c692e161557fb3a493964794f">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\CWAC-SackOfViewsAdapter-100577dbf0b2f651933a025b87d62b68877af506.jar" />
+    </item>
+    <item
+        jar="C:\Users\VISHAL\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.2\91c20388c9a45f62b5ed8fe0502bb76ff6251fc7\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="C:\Users\VISHAL\Desktop\RS\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-f207b33339fe4a2151bdecf47063ea6948017337.jar" />
+    </item>
+
+</items>

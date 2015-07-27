@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/CODING/RS/android-switch-backport/build/intermediates/bundles/debug/res/values-large-v4/values-large-v4.xml -->
+    <eat-comment/>
+    <dimen name="preference_widget_width">56dp</dimen>
+</resources>

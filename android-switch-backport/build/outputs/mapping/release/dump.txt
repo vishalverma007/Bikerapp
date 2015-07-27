@@ -1,0 +1,3572 @@
+_____________________________________________________________________
++ Program class: org/jraf/android/backport/switchwidget/Switch
+  Superclass:    android/widget/CompoundButton
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class org.jraf.android.backport.switchwidget.Switch extends android.widget.CompoundButton
+
+Interfaces (count = 0):
+
+Constant Pool (count = 523):
+  + Integer [16842912]
+  + Float [-0.25]
+  + Float [0.5]
+  + Class [android/content/Context]
+  + Class [android/content/res/ColorStateList]
+  + Class [android/content/res/Resources]
+  + Class [android/content/res/TypedArray]
+  + Class [android/graphics/Canvas]
+  + Class [android/graphics/Rect]
+  + Class [android/graphics/Typeface]
+  + Class [android/graphics/drawable/Drawable]
+  + Class [android/os/Build$VERSION]
+  + Class [android/text/Layout]
+  + Class [android/text/Layout$Alignment]
+  + Class [android/text/StaticLayout]
+  + Class [android/text/TextPaint]
+  + Class [android/text/TextUtils]
+  + Class [android/util/DisplayMetrics]
+  + Class [android/view/MotionEvent]
+  + Class [android/view/VelocityTracker]
+  + Class [android/view/ViewConfiguration]
+  + Class [android/view/ViewParent]
+  + Class [android/widget/CompoundButton]
+  + Class [java/lang/Math]
+  + Class [org/jraf/android/backport/switchwidget/R$attr]
+  + Class [org/jraf/android/backport/switchwidget/R$styleable]
+  + Class [org/jraf/android/backport/switchwidget/Switch]
+  + Fieldref [android/graphics/Rect.bottom I]
+  + Fieldref [android/graphics/Rect.left I]
+  + Fieldref [android/graphics/Rect.right I]
+  + Fieldref [android/graphics/Rect.top I]
+  + Fieldref [android/graphics/Typeface.MONOSPACE Landroid/graphics/Typeface;]
+  + Fieldref [android/graphics/Typeface.SANS_SERIF Landroid/graphics/Typeface;]
+  + Fieldref [android/graphics/Typeface.SERIF Landroid/graphics/Typeface;]
+  + Fieldref [android/os/Build$VERSION.SDK_INT I]
+  + Fieldref [android/text/Layout$Alignment.ALIGN_NORMAL Landroid/text/Layout$Alignment;]
+  + Fieldref [android/text/TextPaint.density F]
+  + Fieldref [android/text/TextPaint.drawableState [I]
+  + Fieldref [android/util/DisplayMetrics.density F]
+  + Fieldref [org/jraf/android/backport/switchwidget/R$attr.asb_switchStyle I]
+  + Fieldref [org/jraf/android/backport/switchwidget/R$styleable.Android [I]
+  + Fieldref [org/jraf/android/backport/switchwidget/R$styleable.Switch [I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.A [I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.a Landroid/graphics/drawable/Drawable;]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.c I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.d I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.e I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.f Ljava/lang/CharSequence;]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.g Ljava/lang/CharSequence;]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.h I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.i I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.j F]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.k F]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.l Landroid/view/VelocityTracker;]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.m I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.n F]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.o I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.p I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.q I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.r I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.s I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.t I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.u I]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.w Landroid/content/res/ColorStateList;]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.x Landroid/text/Layout;]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.y Landroid/text/Layout;]
+  + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+  + Methodref [android/content/Context.obtainStyledAttributes (I[I)Landroid/content/res/TypedArray;]
+  + Methodref [android/content/Context.obtainStyledAttributes (Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;]
+  + Methodref [android/content/res/ColorStateList.getColorForState ([II)I]
+  + Methodref [android/content/res/ColorStateList.getDefaultColor ()I]
+  + Methodref [android/content/res/Resources.getDisplayMetrics ()Landroid/util/DisplayMetrics;]
+  + Methodref [android/content/res/TypedArray.getColorStateList (I)Landroid/content/res/ColorStateList;]
+  + Methodref [android/content/res/TypedArray.getDimensionPixelSize (II)I]
+  + Methodref [android/content/res/TypedArray.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+  + Methodref [android/content/res/TypedArray.getInt (II)I]
+  + Methodref [android/content/res/TypedArray.getResourceId (II)I]
+  + Methodref [android/content/res/TypedArray.getText (I)Ljava/lang/CharSequence;]
+  + Methodref [android/content/res/TypedArray.recycle ()V]
+  + Methodref [android/graphics/Canvas.clipRect (IIII)Z]
+  + Methodref [android/graphics/Canvas.restore ()V]
+  + Methodref [android/graphics/Canvas.save ()I]
+  + Methodref [android/graphics/Canvas.translate (FF)V]
+  + Methodref [android/graphics/Rect.<init> ()V]
+  + Methodref [android/graphics/Typeface.create (Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;]
+  + Methodref [android/graphics/Typeface.defaultFromStyle (I)Landroid/graphics/Typeface;]
+  + Methodref [android/graphics/Typeface.getStyle ()I]
+  + Methodref [android/graphics/drawable/Drawable.draw (Landroid/graphics/Canvas;)V]
+  + Methodref [android/graphics/drawable/Drawable.getIntrinsicHeight ()I]
+  + Methodref [android/graphics/drawable/Drawable.getPadding (Landroid/graphics/Rect;)Z]
+  + Methodref [android/graphics/drawable/Drawable.setBounds (IIII)V]
+  + Methodref [android/graphics/drawable/Drawable.setState ([I)Z]
+  + Methodref [android/text/Layout.draw (Landroid/graphics/Canvas;)V]
+  + Methodref [android/text/Layout.getDesiredWidth (Ljava/lang/CharSequence;Landroid/text/TextPaint;)F]
+  + Methodref [android/text/Layout.getHeight ()I]
+  + Methodref [android/text/Layout.getWidth ()I]
+  + Methodref [android/text/StaticLayout.<init> (Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V]
+  + Methodref [android/text/TextPaint.<init> (I)V]
+  + Methodref [android/text/TextPaint.getTextSize ()F]
+  + Methodref [android/text/TextPaint.getTypeface ()Landroid/graphics/Typeface;]
+  + Methodref [android/text/TextPaint.setColor (I)V]
+  + Methodref [android/text/TextPaint.setFakeBoldText (Z)V]
+  + Methodref [android/text/TextPaint.setTextSize (F)V]
+  + Methodref [android/text/TextPaint.setTextSkewX (F)V]
+  + Methodref [android/text/TextPaint.setTypeface (Landroid/graphics/Typeface;)Landroid/graphics/Typeface;]
+  + Methodref [android/text/TextUtils.isEmpty (Ljava/lang/CharSequence;)Z]
+  + Methodref [android/view/MotionEvent.getAction ()I]
+  + Methodref [android/view/MotionEvent.getActionMasked ()I]
+  + Methodref [android/view/MotionEvent.getX ()F]
+  + Methodref [android/view/MotionEvent.getY ()F]
+  + Methodref [android/view/MotionEvent.obtain (Landroid/view/MotionEvent;)Landroid/view/MotionEvent;]
+  + Methodref [android/view/MotionEvent.recycle ()V]
+  + Methodref [android/view/MotionEvent.setAction (I)V]
+  + Methodref [android/view/VelocityTracker.addMovement (Landroid/view/MotionEvent;)V]
+  + Methodref [android/view/VelocityTracker.clear ()V]
+  + Methodref [android/view/VelocityTracker.computeCurrentVelocity (I)V]
+  + Methodref [android/view/VelocityTracker.getXVelocity ()F]
+  + Methodref [android/view/VelocityTracker.obtain ()Landroid/view/VelocityTracker;]
+  + Methodref [android/view/ViewConfiguration.get (Landroid/content/Context;)Landroid/view/ViewConfiguration;]
+  + Methodref [android/view/ViewConfiguration.getScaledMinimumFlingVelocity ()I]
+  + Methodref [android/view/ViewConfiguration.getScaledTouchSlop ()I]
+  + Methodref [android/widget/CompoundButton.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Methodref [android/widget/CompoundButton.drawableStateChanged ()V]
+  + Methodref [android/widget/CompoundButton.getCompoundPaddingRight ()I]
+  + Methodref [android/widget/CompoundButton.onCreateDrawableState (I)[I]
+  + Methodref [android/widget/CompoundButton.onDraw (Landroid/graphics/Canvas;)V]
+  + Methodref [android/widget/CompoundButton.onLayout (ZIIII)V]
+  + Methodref [android/widget/CompoundButton.onMeasure (II)V]
+  + Methodref [android/widget/CompoundButton.onTouchEvent (Landroid/view/MotionEvent;)Z]
+  + Methodref [android/widget/CompoundButton.setChecked (Z)V]
+  + Methodref [android/widget/CompoundButton.verifyDrawable (Landroid/graphics/drawable/Drawable;)Z]
+  + Methodref [java/lang/Math.abs (F)F]
+  + Methodref [java/lang/Math.ceil (D)D]
+  + Methodref [java/lang/Math.max (FF)F]
+  + Methodref [java/lang/Math.max (II)I]
+  + Methodref [java/lang/Math.min (FF)F]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.a (Ljava/lang/CharSequence;)Landroid/text/Layout;]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getDrawableState ()[I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getGravity ()I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getHeight ()I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getMeasuredHeight ()I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getMeasuredWidth ()I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getMeasuredWidthAndState ()I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getPaddingBottom ()I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getPaddingRight ()I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getPaddingTop ()I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getParent ()Landroid/view/ViewParent;]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getResources ()Landroid/content/res/Resources;]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getTargetCheckedState ()Z]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getText ()Ljava/lang/CharSequence;]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getTextColors ()Landroid/content/res/ColorStateList;]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getThumbScrollRange ()I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.getWidth ()I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.invalidate ()V]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.isChecked ()Z]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.isEnabled ()Z]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.mergeDrawableStates ([I[I)[I]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.refreshDrawableState ()V]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.requestLayout ()V]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.setChecked (Z)V]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.setMeasuredDimension (II)V]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.setSwitchTypeface (Landroid/graphics/Typeface;)V]
+  + InterfaceMethodref [android/view/ViewParent.requestDisallowInterceptTouchEvent (Z)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (I)V]
+  + NameAndType [<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + NameAndType [<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + NameAndType [<init> (Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V]
+  + NameAndType [A [I]
+  + NameAndType [ALIGN_NORMAL Landroid/text/Layout$Alignment;]
+  + NameAndType [Android [I]
+  + NameAndType [MONOSPACE Landroid/graphics/Typeface;]
+  + NameAndType [SANS_SERIF Landroid/graphics/Typeface;]
+  + NameAndType [SDK_INT I]
+  + NameAndType [SERIF Landroid/graphics/Typeface;]
+  + NameAndType [Switch [I]
+  + NameAndType [a (Ljava/lang/CharSequence;)Landroid/text/Layout;]
+  + NameAndType [a Landroid/graphics/drawable/Drawable;]
+  + NameAndType [abs (F)F]
+  + NameAndType [addMovement (Landroid/view/MotionEvent;)V]
+  + NameAndType [asb_switchStyle I]
+  + NameAndType [b Landroid/graphics/drawable/Drawable;]
+  + NameAndType [bottom I]
+  + NameAndType [c I]
+  + NameAndType [ceil (D)D]
+  + NameAndType [clear ()V]
+  + NameAndType [clipRect (IIII)Z]
+  + NameAndType [computeCurrentVelocity (I)V]
+  + NameAndType [create (Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;]
+  + NameAndType [d I]
+  + NameAndType [defaultFromStyle (I)Landroid/graphics/Typeface;]
+  + NameAndType [density F]
+  + NameAndType [draw (Landroid/graphics/Canvas;)V]
+  + NameAndType [drawableState [I]
+  + NameAndType [drawableStateChanged ()V]
+  + NameAndType [e I]
+  + NameAndType [f Ljava/lang/CharSequence;]
+  + NameAndType [g Ljava/lang/CharSequence;]
+  + NameAndType [get (Landroid/content/Context;)Landroid/view/ViewConfiguration;]
+  + NameAndType [getAction ()I]
+  + NameAndType [getActionMasked ()I]
+  + NameAndType [getColorForState ([II)I]
+  + NameAndType [getColorStateList (I)Landroid/content/res/ColorStateList;]
+  + NameAndType [getCompoundPaddingRight ()I]
+  + NameAndType [getDefaultColor ()I]
+  + NameAndType [getDesiredWidth (Ljava/lang/CharSequence;Landroid/text/TextPaint;)F]
+  + NameAndType [getDimensionPixelSize (II)I]
+  + NameAndType [getDisplayMetrics ()Landroid/util/DisplayMetrics;]
+  + NameAndType [getDrawable (I)Landroid/graphics/drawable/Drawable;]
+  + NameAndType [getDrawableState ()[I]
+  + NameAndType [getGravity ()I]
+  + NameAndType [getHeight ()I]
+  + NameAndType [getInt (II)I]
+  + NameAndType [getIntrinsicHeight ()I]
+  + NameAndType [getMeasuredHeight ()I]
+  + NameAndType [getMeasuredWidth ()I]
+  + NameAndType [getMeasuredWidthAndState ()I]
+  + NameAndType [getPadding (Landroid/graphics/Rect;)Z]
+  + NameAndType [getPaddingBottom ()I]
+  + NameAndType [getPaddingRight ()I]
+  + NameAndType [getPaddingTop ()I]
+  + NameAndType [getParent ()Landroid/view/ViewParent;]
+  + NameAndType [getResourceId (II)I]
+  + NameAndType [getResources ()Landroid/content/res/Resources;]
+  + NameAndType [getScaledMinimumFlingVelocity ()I]
+  + NameAndType [getScaledTouchSlop ()I]
+  + NameAndType [getStyle ()I]
+  + NameAndType [getTargetCheckedState ()Z]
+  + NameAndType [getText ()Ljava/lang/CharSequence;]
+  + NameAndType [getText (I)Ljava/lang/CharSequence;]
+  + NameAndType [getTextColors ()Landroid/content/res/ColorStateList;]
+  + NameAndType [getTextSize ()F]
+  + NameAndType [getThumbScrollRange ()I]
+  + NameAndType [getTypeface ()Landroid/graphics/Typeface;]
+  + NameAndType [getWidth ()I]
+  + NameAndType [getX ()F]
+  + NameAndType [getXVelocity ()F]
+  + NameAndType [getY ()F]
+  + NameAndType [h I]
+  + NameAndType [i I]
+  + NameAndType [invalidate ()V]
+  + NameAndType [isChecked ()Z]
+  + NameAndType [isEmpty (Ljava/lang/CharSequence;)Z]
+  + NameAndType [isEnabled ()Z]
+  + NameAndType [j F]
+  + NameAndType [k F]
+  + NameAndType [l Landroid/view/VelocityTracker;]
+  + NameAndType [left I]
+  + NameAndType [m I]
+  + NameAndType [max (FF)F]
+  + NameAndType [max (II)I]
+  + NameAndType [mergeDrawableStates ([I[I)[I]
+  + NameAndType [min (FF)F]
+  + NameAndType [n F]
+  + NameAndType [o I]
+  + NameAndType [obtain ()Landroid/view/VelocityTracker;]
+  + NameAndType [obtain (Landroid/view/MotionEvent;)Landroid/view/MotionEvent;]
+  + NameAndType [obtainStyledAttributes (I[I)Landroid/content/res/TypedArray;]
+  + NameAndType [obtainStyledAttributes (Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;]
+  + NameAndType [onCreateDrawableState (I)[I]
+  + NameAndType [onDraw (Landroid/graphics/Canvas;)V]
+  + NameAndType [onLayout (ZIIII)V]
+  + NameAndType [onMeasure (II)V]
+  + NameAndType [onTouchEvent (Landroid/view/MotionEvent;)Z]
+  + NameAndType [p I]
+  + NameAndType [q I]
+  + NameAndType [r I]
+  + NameAndType [recycle ()V]
+  + NameAndType [refreshDrawableState ()V]
+  + NameAndType [requestDisallowInterceptTouchEvent (Z)V]
+  + NameAndType [requestLayout ()V]
+  + NameAndType [restore ()V]
+  + NameAndType [right I]
+  + NameAndType [s I]
+  + NameAndType [save ()I]
+  + NameAndType [setAction (I)V]
+  + NameAndType [setBounds (IIII)V]
+  + NameAndType [setChecked (Z)V]
+  + NameAndType [setColor (I)V]
+  + NameAndType [setFakeBoldText (Z)V]
+  + NameAndType [setMeasuredDimension (II)V]
+  + NameAndType [setState ([I)Z]
+  + NameAndType [setSwitchTypeface (Landroid/graphics/Typeface;)V]
+  + NameAndType [setTextSize (F)V]
+  + NameAndType [setTextSkewX (F)V]
+  + NameAndType [setTypeface (Landroid/graphics/Typeface;)Landroid/graphics/Typeface;]
+  + NameAndType [t I]
+  + NameAndType [top I]
+  + NameAndType [translate (FF)V]
+  + NameAndType [u I]
+  + NameAndType [v Landroid/text/TextPaint;]
+  + NameAndType [verifyDrawable (Landroid/graphics/drawable/Drawable;)Z]
+  + NameAndType [w Landroid/content/res/ColorStateList;]
+  + NameAndType [x Landroid/text/Layout;]
+  + NameAndType [y Landroid/text/Layout;]
+  + NameAndType [z Landroid/graphics/Rect;]
+  + Utf8 [()F]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/res/ColorStateList;]
+  + Utf8 [()Landroid/content/res/Resources;]
+  + Utf8 [()Landroid/graphics/Typeface;]
+  + Utf8 [()Landroid/util/DisplayMetrics;]
+  + Utf8 [()Landroid/view/VelocityTracker;]
+  + Utf8 [()Landroid/view/ViewParent;]
+  + Utf8 [()Ljava/lang/CharSequence;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [()[I]
+  + Utf8 [(D)D]
+  + Utf8 [(F)F]
+  + Utf8 [(F)V]
+  + Utf8 [(FF)F]
+  + Utf8 [(FF)V]
+  + Utf8 [(I)Landroid/content/res/ColorStateList;]
+  + Utf8 [(I)Landroid/graphics/Typeface;]
+  + Utf8 [(I)Landroid/graphics/drawable/Drawable;]
+  + Utf8 [(I)Ljava/lang/CharSequence;]
+  + Utf8 [(I)V]
+  + Utf8 [(I)[I]
+  + Utf8 [(II)I]
+  + Utf8 [(II)V]
+  + Utf8 [(IIII)V]
+  + Utf8 [(IIII)Z]
+  + Utf8 [(I[I)Landroid/content/res/TypedArray;]
+  + Utf8 [(Landroid/content/Context;)Landroid/view/ViewConfiguration;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Utf8 [(Landroid/graphics/Canvas;)V]
+  + Utf8 [(Landroid/graphics/Rect;)Z]
+  + Utf8 [(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;]
+  + Utf8 [(Landroid/graphics/Typeface;)V]
+  + Utf8 [(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;]
+  + Utf8 [(Landroid/graphics/drawable/Drawable;)Z]
+  + Utf8 [(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;]
+  + Utf8 [(Landroid/view/MotionEvent;)Landroid/view/MotionEvent;]
+  + Utf8 [(Landroid/view/MotionEvent;)V]
+  + Utf8 [(Landroid/view/MotionEvent;)Z]
+  + Utf8 [(Ljava/lang/CharSequence;)Landroid/text/Layout;]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)Z]
+  + Utf8 [(Ljava/lang/CharSequence;Landroid/text/TextPaint;)F]
+  + Utf8 [(Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V]
+  + Utf8 [(Z)V]
+  + Utf8 [(ZIIII)V]
+  + Utf8 [([I)Z]
+  + Utf8 [([II)I]
+  + Utf8 [([I[I)[I]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [A]
+  + Utf8 [ALIGN_NORMAL]
+  + Utf8 [Android]
+  + Utf8 [Code]
+  + Utf8 [F]
+  + Utf8 [I]
+  + Utf8 [Landroid/annotation/SuppressLint;]
+  + Utf8 [Landroid/content/res/ColorStateList;]
+  + Utf8 [Landroid/graphics/Rect;]
+  + Utf8 [Landroid/graphics/Typeface;]
+  + Utf8 [Landroid/graphics/drawable/Drawable;]
+  + Utf8 [Landroid/text/Layout$Alignment;]
+  + Utf8 [Landroid/text/Layout;]
+  + Utf8 [Landroid/text/TextPaint;]
+  + Utf8 [Landroid/view/VelocityTracker;]
+  + Utf8 [Ljava/lang/CharSequence;]
+  + Utf8 [MONOSPACE]
+  + Utf8 [NewApi]
+  + Utf8 [RuntimeInvisibleAnnotations]
+  + Utf8 [SANS_SERIF]
+  + Utf8 [SDK_INT]
+  + Utf8 [SERIF]
+  + Utf8 [Switch]
+  + Utf8 [[I]
+  + Utf8 [a]
+  + Utf8 [abs]
+  + Utf8 [addMovement]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/res/ColorStateList]
+  + Utf8 [android/content/res/Resources]
+  + Utf8 [android/content/res/TypedArray]
+  + Utf8 [android/graphics/Canvas]
+  + Utf8 [android/graphics/Rect]
+  + Utf8 [android/graphics/Typeface]
+  + Utf8 [android/graphics/drawable/Drawable]
+  + Utf8 [android/os/Build$VERSION]
+  + Utf8 [android/text/Layout]
+  + Utf8 [android/text/Layout$Alignment]
+  + Utf8 [android/text/StaticLayout]
+  + Utf8 [android/text/TextPaint]
+  + Utf8 [android/text/TextUtils]
+  + Utf8 [android/util/DisplayMetrics]
+  + Utf8 [android/view/MotionEvent]
+  + Utf8 [android/view/VelocityTracker]
+  + Utf8 [android/view/ViewConfiguration]
+  + Utf8 [android/view/ViewParent]
+  + Utf8 [android/widget/CompoundButton]
+  + Utf8 [asb_switchStyle]
+  + Utf8 [b]
+  + Utf8 [bottom]
+  + Utf8 [c]
+  + Utf8 [ceil]
+  + Utf8 [clear]
+  + Utf8 [clipRect]
+  + Utf8 [computeCurrentVelocity]
+  + Utf8 [create]
+  + Utf8 [d]
+  + Utf8 [defaultFromStyle]
+  + Utf8 [density]
+  + Utf8 [draw]
+  + Utf8 [drawableState]
+  + Utf8 [drawableStateChanged]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [get]
+  + Utf8 [getAction]
+  + Utf8 [getActionMasked]
+  + Utf8 [getColorForState]
+  + Utf8 [getColorStateList]
+  + Utf8 [getCompoundPaddingRight]
+  + Utf8 [getDefaultColor]
+  + Utf8 [getDesiredWidth]
+  + Utf8 [getDimensionPixelSize]
+  + Utf8 [getDisplayMetrics]
+  + Utf8 [getDrawable]
+  + Utf8 [getDrawableState]
+  + Utf8 [getGravity]
+  + Utf8 [getHeight]
+  + Utf8 [getInt]
+  + Utf8 [getIntrinsicHeight]
+  + Utf8 [getMeasuredHeight]
+  + Utf8 [getMeasuredWidth]
+  + Utf8 [getMeasuredWidthAndState]
+  + Utf8 [getPadding]
+  + Utf8 [getPaddingBottom]
+  + Utf8 [getPaddingRight]
+  + Utf8 [getPaddingTop]
+  + Utf8 [getParent]
+  + Utf8 [getResourceId]
+  + Utf8 [getResources]
+  + Utf8 [getScaledMinimumFlingVelocity]
+  + Utf8 [getScaledTouchSlop]
+  + Utf8 [getStyle]
+  + Utf8 [getTargetCheckedState]
+  + Utf8 [getText]
+  + Utf8 [getTextColors]
+  + Utf8 [getTextOff]
+  + Utf8 [getTextOn]
+  + Utf8 [getTextSize]
+  + Utf8 [getThumbScrollRange]
+  + Utf8 [getTypeface]
+  + Utf8 [getWidth]
+  + Utf8 [getX]
+  + Utf8 [getXVelocity]
+  + Utf8 [getY]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [invalidate]
+  + Utf8 [isChecked]
+  + Utf8 [isEmpty]
+  + Utf8 [isEnabled]
+  + Utf8 [j]
+  + Utf8 [java/lang/Math]
+  + Utf8 [k]
+  + Utf8 [l]
+  + Utf8 [left]
+  + Utf8 [m]
+  + Utf8 [max]
+  + Utf8 [mergeDrawableStates]
+  + Utf8 [min]
+  + Utf8 [n]
+  + Utf8 [o]
+  + Utf8 [obtain]
+  + Utf8 [obtainStyledAttributes]
+  + Utf8 [onCreateDrawableState]
+  + Utf8 [onDraw]
+  + Utf8 [onLayout]
+  + Utf8 [onMeasure]
+  + Utf8 [onTouchEvent]
+  + Utf8 [org/jraf/android/backport/switchwidget/R$attr]
+  + Utf8 [org/jraf/android/backport/switchwidget/R$styleable]
+  + Utf8 [org/jraf/android/backport/switchwidget/Switch]
+  + Utf8 [p]
+  + Utf8 [q]
+  + Utf8 [r]
+  + Utf8 [recycle]
+  + Utf8 [refreshDrawableState]
+  + Utf8 [requestDisallowInterceptTouchEvent]
+  + Utf8 [requestLayout]
+  + Utf8 [restore]
+  + Utf8 [right]
+  + Utf8 [s]
+  + Utf8 [save]
+  + Utf8 [setAction]
+  + Utf8 [setBounds]
+  + Utf8 [setChecked]
+  + Utf8 [setColor]
+  + Utf8 [setFakeBoldText]
+  + Utf8 [setMeasuredDimension]
+  + Utf8 [setState]
+  + Utf8 [setSwitchTypeface]
+  + Utf8 [setTextOff]
+  + Utf8 [setTextOn]
+  + Utf8 [setTextSize]
+  + Utf8 [setTextSkewX]
+  + Utf8 [setTypeface]
+  + Utf8 [t]
+  + Utf8 [top]
+  + Utf8 [translate]
+  + Utf8 [u]
+  + Utf8 [v]
+  + Utf8 [value]
+  + Utf8 [verifyDrawable]
+  + Utf8 [w]
+  + Utf8 [x]
+  + Utf8 [y]
+  + Utf8 [z]
+
+Fields (count = 27):
+  + Field:        a Landroid/graphics/drawable/Drawable;
+    Access flags: 0x12
+      = private final android.graphics.drawable.Drawable a
+  + Field:        b Landroid/graphics/drawable/Drawable;
+    Access flags: 0x12
+      = private final android.graphics.drawable.Drawable b
+  + Field:        c I
+    Access flags: 0x12
+      = private final int c
+  + Field:        d I
+    Access flags: 0x12
+      = private final int d
+  + Field:        e I
+    Access flags: 0x12
+      = private final int e
+  + Field:        f Ljava/lang/CharSequence;
+    Access flags: 0x2
+      = private java.lang.CharSequence f
+  + Field:        g Ljava/lang/CharSequence;
+    Access flags: 0x2
+      = private java.lang.CharSequence g
+  + Field:        h I
+    Access flags: 0x2
+      = private int h
+  + Field:        i I
+    Access flags: 0x12
+      = private final int i
+  + Field:        j F
+    Access flags: 0x2
+      = private float j
+  + Field:        k F
+    Access flags: 0x2
+      = private float k
+  + Field:        l Landroid/view/VelocityTracker;
+    Access flags: 0x12
+      = private final android.view.VelocityTracker l
+  + Field:        m I
+    Access flags: 0x12
+      = private final int m
+  + Field:        n F
+    Access flags: 0x2
+      = private float n
+  + Field:        o I
+    Access flags: 0x2
+      = private int o
+  + Field:        p I
+    Access flags: 0x2
+      = private int p
+  + Field:        q I
+    Access flags: 0x2
+      = private int q
+  + Field:        r I
+    Access flags: 0x2
+      = private int r
+  + Field:        s I
+    Access flags: 0x2
+      = private int s
+  + Field:        t I
+    Access flags: 0x2
+      = private int t
+  + Field:        u I
+    Access flags: 0x2
+      = private int u
+  + Field:        v Landroid/text/TextPaint;
+    Access flags: 0x12
+      = private final android.text.TextPaint v
+  + Field:        w Landroid/content/res/ColorStateList;
+    Access flags: 0x2
+      = private android.content.res.ColorStateList w
+  + Field:        x Landroid/text/Layout;
+    Access flags: 0x2
+      = private android.text.Layout x
+  + Field:        y Landroid/text/Layout;
+    Access flags: 0x2
+      = private android.text.Layout y
+  + Field:        z Landroid/graphics/Rect;
+    Access flags: 0x12
+      = private final android.graphics.Rect z
+  + Field:        A [I
+    Access flags: 0x1a
+      = private static final int[] A
+
+Methods (count = 21):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public Switch(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aconst_null
+      [3] invokespecial #139
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+      [6] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    Access flags: 0x1
+      = public Switch(android.content.Context,android.util.AttributeSet)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] getstatic #40
+        + Fieldref [org/jraf/android/backport/switchwidget/R$attr.asb_switchStyle I]
+      [6] invokespecial #140
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    Access flags: 0x1
+      = public Switch(android.content.Context,android.util.AttributeSet,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 482, locals = 8, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] iload_3 v3
+      [4] invokespecial #124
+        + Methodref [android/widget/CompoundButton.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+      [7] aload_0 v0
+      [8] invokestatic #120
+        + Methodref [android/view/VelocityTracker.obtain ()Landroid/view/VelocityTracker;]
+      [11] putfield #55
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.l Landroid/view/VelocityTracker;]
+      [14] aload_0 v0
+      [15] new #9
+        + Class [android/graphics/Rect]
+      [18] dup
+      [19] invokespecial #86
+        + Methodref [android/graphics/Rect.<init> ()V]
+      [22] putfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [25] aload_0 v0
+      [26] new #16
+        + Class [android/text/TextPaint]
+      [29] dup
+      [30] iconst_1
+      [31] invokespecial #100
+        + Methodref [android/text/TextPaint.<init> (I)V]
+      [34] putfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [37] aload_0 v0
+      [38] invokevirtual #152
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getResources ()Landroid/content/res/Resources;]
+      [41] astore v4
+      [43] aload_0 v0
+      [44] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [47] aload v4
+      [49] invokevirtual #74
+        + Methodref [android/content/res/Resources.getDisplayMetrics ()Landroid/util/DisplayMetrics;]
+      [52] getfield #39
+        + Fieldref [android/util/DisplayMetrics.density F]
+      [55] putfield #37
+        + Fieldref [android/text/TextPaint.density F]
+      [58] aload_1 v1
+      [59] aload_2 v2
+      [60] getstatic #42
+        + Fieldref [org/jraf/android/backport/switchwidget/R$styleable.Switch [I]
+      [63] iload_3 v3
+      [64] iconst_0
+      [65] invokevirtual #71
+        + Methodref [android/content/Context.obtainStyledAttributes (Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;]
+      [68] astore_2 v2
+      [69] aload_0 v0
+      [70] aload_2 v2
+      [71] iconst_0
+      [72] invokevirtual #77
+        + Methodref [android/content/res/TypedArray.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+      [75] putfield #44
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.a Landroid/graphics/drawable/Drawable;]
+      [78] aload_0 v0
+      [79] aload_2 v2
+      [80] iconst_1
+      [81] invokevirtual #77
+        + Methodref [android/content/res/TypedArray.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+      [84] putfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [87] aload_0 v0
+      [88] aload_2 v2
+      [89] iconst_2
+      [90] invokevirtual #80
+        + Methodref [android/content/res/TypedArray.getText (I)Ljava/lang/CharSequence;]
+      [93] putfield #49
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.f Ljava/lang/CharSequence;]
+      [96] aload_0 v0
+      [97] aload_2 v2
+      [98] iconst_3
+      [99] invokevirtual #80
+        + Methodref [android/content/res/TypedArray.getText (I)Ljava/lang/CharSequence;]
+      [102] putfield #50
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.g Ljava/lang/CharSequence;]
+      [105] aload_0 v0
+      [106] aload_2 v2
+      [107] iconst_4
+      [108] iconst_0
+      [109] invokevirtual #76
+        + Methodref [android/content/res/TypedArray.getDimensionPixelSize (II)I]
+      [112] putfield #46
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.c I]
+      [115] aload_0 v0
+      [116] aload_2 v2
+      [117] bipush 6
+      [119] iconst_0
+      [120] invokevirtual #76
+        + Methodref [android/content/res/TypedArray.getDimensionPixelSize (II)I]
+      [123] putfield #47
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.d I]
+      [126] aload_0 v0
+      [127] aload_2 v2
+      [128] bipush 7
+      [130] iconst_0
+      [131] invokevirtual #76
+        + Methodref [android/content/res/TypedArray.getDimensionPixelSize (II)I]
+      [134] putfield #48
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.e I]
+      [137] aload_2 v2
+      [138] iconst_5
+      [139] iconst_0
+      [140] invokevirtual #79
+        + Methodref [android/content/res/TypedArray.getResourceId (II)I]
+      [143] dup
+      [144] istore_3 v3
+      [145] ifeq +299 (target=444)
+      [148] aload_0 v0
+      [149] aload_1 v1
+      [150] iload_3 v3
+      [151] istore v5
+      [153] astore v4
+      [155] astore_3 v3
+      [156] aload v4
+      [158] iload v5
+      [160] getstatic #41
+        + Fieldref [org/jraf/android/backport/switchwidget/R$styleable.Android [I]
+      [163] invokevirtual #70
+        + Methodref [android/content/Context.obtainStyledAttributes (I[I)Landroid/content/res/TypedArray;]
+      [166] dup
+      [167] astore v4
+      [169] iconst_3
+      [170] invokevirtual #75
+        + Methodref [android/content/res/TypedArray.getColorStateList (I)Landroid/content/res/ColorStateList;]
+      [173] dup
+      [174] astore v5
+      [176] ifnull +12 (target=188)
+      [179] aload_3 v3
+      [180] aload v5
+      [182] putfield #66
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.w Landroid/content/res/ColorStateList;]
+      [185] goto +11 (target=196)
+      [188] aload_3 v3
+      [189] aload_3 v3
+      [190] invokevirtual #155
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getTextColors ()Landroid/content/res/ColorStateList;]
+      [193] putfield #66
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.w Landroid/content/res/ColorStateList;]
+      [196] aload v4
+      [198] iconst_0
+      [199] iconst_0
+      [200] invokevirtual #76
+        + Methodref [android/content/res/TypedArray.getDimensionPixelSize (II)I]
+      [203] dup
+      [204] istore v5
+      [206] ifeq +31 (target=237)
+      [209] iload v5
+      [211] i2f
+      [212] aload_3 v3
+      [213] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [216] invokevirtual #101
+        + Methodref [android/text/TextPaint.getTextSize ()F]
+      [219] fcmpl
+      [220] ifeq +17 (target=237)
+      [223] aload_3 v3
+      [224] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [227] iload v5
+      [229] i2f
+      [230] invokevirtual #105
+        + Methodref [android/text/TextPaint.setTextSize (F)V]
+      [233] aload_3 v3
+      [234] invokevirtual #163
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.requestLayout ()V]
+      [237] aload v4
+      [239] iconst_1
+      [240] iconst_m1
+      [241] invokevirtual #78
+        + Methodref [android/content/res/TypedArray.getInt (II)I]
+      [244] istore v5
+      [246] aload v4
+      [248] iconst_2
+      [249] iconst_m1
+      [250] invokevirtual #78
+        + Methodref [android/content/res/TypedArray.getInt (II)I]
+      [253] istore v6
+      [255] aconst_null
+      [256] astore v7
+      [258] iload v5
+      [260] tableswitch (3 offsets, default=49) (target=309)
+        1: offset = 28, target = 288
+        2: offset = 36, target = 296
+        3: offset = 44, target = 304
+        default: offset = 49, target = 309
+      [288] getstatic #33
+        + Fieldref [android/graphics/Typeface.SANS_SERIF Landroid/graphics/Typeface;]
+      [291] astore v7
+      [293] goto +16 (target=309)
+      [296] getstatic #34
+        + Fieldref [android/graphics/Typeface.SERIF Landroid/graphics/Typeface;]
+      [299] astore v7
+      [301] goto +8 (target=309)
+      [304] getstatic #32
+        + Fieldref [android/graphics/Typeface.MONOSPACE Landroid/graphics/Typeface;]
+      [307] astore v7
+      [309] aload_3 v3
+      [310] aload v7
+      [312] astore v5
+      [314] astore_3 v3
+      [315] iload v6
+      [317] ifle +100 (target=417)
+      [320] aload v5
+      [322] ifnonnull +13 (target=335)
+      [325] iload v6
+      [327] invokestatic #88
+        + Methodref [android/graphics/Typeface.defaultFromStyle (I)Landroid/graphics/Typeface;]
+      [330] astore v5
+      [332] goto +12 (target=344)
+      [335] aload v5
+      [337] iload v6
+      [339] invokestatic #87
+        + Methodref [android/graphics/Typeface.create (Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;]
+      [342] astore v5
+      [344] aload_3 v3
+      [345] aload v5
+      [347] invokevirtual #166
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.setSwitchTypeface (Landroid/graphics/Typeface;)V]
+      [350] aload v5
+      [352] ifnull +11 (target=363)
+      [355] aload v5
+      [357] invokevirtual #89
+        + Methodref [android/graphics/Typeface.getStyle ()I]
+      [360] goto +4 (target=364)
+      [363] iconst_0
+      [364] istore v5
+      [366] iload v6
+      [368] iload v5
+      [370] iconst_m1
+      [371] ixor
+      [372] iand
+      [373] istore v5
+      [375] aload_3 v3
+      [376] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [379] iload v5
+      [381] iconst_1
+      [382] iand
+      [383] ifeq +7 (target=390)
+      [386] iconst_1
+      [387] goto +4 (target=391)
+      [390] iconst_0
+      [391] invokevirtual #104
+        + Methodref [android/text/TextPaint.setFakeBoldText (Z)V]
+      [394] aload_3 v3
+      [395] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [398] iload v5
+      [400] iconst_2
+      [401] iand
+      [402] ifeq +8 (target=410)
+      [405] ldc #2
+        + Float [-0.25]
+      [407] goto +4 (target=411)
+      [410] fconst_0
+      [411] invokevirtual #106
+        + Methodref [android/text/TextPaint.setTextSkewX (F)V]
+      [414] goto +25 (target=439)
+      [417] aload_3 v3
+      [418] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [421] iconst_0
+      [422] invokevirtual #104
+        + Methodref [android/text/TextPaint.setFakeBoldText (Z)V]
+      [425] aload_3 v3
+      [426] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [429] fconst_0
+      [430] invokevirtual #106
+        + Methodref [android/text/TextPaint.setTextSkewX (F)V]
+      [433] aload_3 v3
+      [434] aload v5
+      [436] invokevirtual #166
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.setSwitchTypeface (Landroid/graphics/Typeface;)V]
+      [439] aload v4
+      [441] invokevirtual #81
+        + Methodref [android/content/res/TypedArray.recycle ()V]
+      [444] aload_2 v2
+      [445] invokevirtual #81
+        + Methodref [android/content/res/TypedArray.recycle ()V]
+      [448] aload_1 v1
+      [449] invokestatic #121
+        + Methodref [android/view/ViewConfiguration.get (Landroid/content/Context;)Landroid/view/ViewConfiguration;]
+      [452] astore_1 v1
+      [453] aload_0 v0
+      [454] aload_1 v1
+      [455] invokevirtual #123
+        + Methodref [android/view/ViewConfiguration.getScaledTouchSlop ()I]
+      [458] putfield #52
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.i I]
+      [461] aload_0 v0
+      [462] aload_1 v1
+      [463] invokevirtual #122
+        + Methodref [android/view/ViewConfiguration.getScaledMinimumFlingVelocity ()I]
+      [466] putfield #56
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.m I]
+      [469] aload_0 v0
+      [470] invokevirtual #162
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.refreshDrawableState ()V]
+      [473] aload_0 v0
+      [474] aload_0 v0
+      [475] invokevirtual #159
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.isChecked ()Z]
+      [478] invokevirtual #164
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.setChecked (Z)V]
+      [481] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setSwitchTypeface(Landroid/graphics/Typeface;)V
+    Access flags: 0x1
+      = public void setSwitchTypeface(android.graphics.Typeface)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 29, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [4] invokevirtual #102
+        + Methodref [android/text/TextPaint.getTypeface ()Landroid/graphics/Typeface;]
+      [7] aload_1 v1
+      [8] ifacmpeq +20 (target=28)
+      [11] aload_0 v0
+      [12] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [15] aload_1 v1
+      [16] invokevirtual #107
+        + Methodref [android/text/TextPaint.setTypeface (Landroid/graphics/Typeface;)Landroid/graphics/Typeface;]
+      [19] pop
+      [20] aload_0 v0
+      [21] invokevirtual #163
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.requestLayout ()V]
+      [24] aload_0 v0
+      [25] invokevirtual #158
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.invalidate ()V]
+      [28] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getTextOn()Ljava/lang/CharSequence;
+    Access flags: 0x1
+      = public java.lang.CharSequence getTextOn()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #49
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.f Ljava/lang/CharSequence;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setTextOn(Ljava/lang/CharSequence;)V
+    Access flags: 0x1
+      = public void setTextOn(java.lang.CharSequence)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #49
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.f Ljava/lang/CharSequence;]
+      [5] aload_0 v0
+      [6] invokevirtual #163
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.requestLayout ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getTextOff()Ljava/lang/CharSequence;
+    Access flags: 0x1
+      = public java.lang.CharSequence getTextOff()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #50
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.g Ljava/lang/CharSequence;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setTextOff(Ljava/lang/CharSequence;)V
+    Access flags: 0x1
+      = public void setTextOff(java.lang.CharSequence)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #50
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.g Ljava/lang/CharSequence;]
+      [5] aload_0 v0
+      [6] invokevirtual #163
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.requestLayout ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onMeasure(II)V
+    Access flags: 0x1
+      = public void onMeasure(int,int)
+    Class member attributes (count = 2):
+    + Code attribute instructions (code length = 181, locals = 6, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #67
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.x Landroid/text/Layout;]
+      [4] ifnonnull +15 (target=19)
+      [7] aload_0 v0
+      [8] aload_0 v0
+      [9] aload_0 v0
+      [10] getfield #49
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.f Ljava/lang/CharSequence;]
+      [13] invokespecial #141
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.a (Ljava/lang/CharSequence;)Landroid/text/Layout;]
+      [16] putfield #67
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.x Landroid/text/Layout;]
+      [19] aload_0 v0
+      [20] getfield #68
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.y Landroid/text/Layout;]
+      [23] ifnonnull +15 (target=38)
+      [26] aload_0 v0
+      [27] aload_0 v0
+      [28] aload_0 v0
+      [29] getfield #50
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.g Ljava/lang/CharSequence;]
+      [32] invokespecial #141
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.a (Ljava/lang/CharSequence;)Landroid/text/Layout;]
+      [35] putfield #68
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.y Landroid/text/Layout;]
+      [38] aload_0 v0
+      [39] getfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [42] aload_0 v0
+      [43] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [46] invokevirtual #92
+        + Methodref [android/graphics/drawable/Drawable.getPadding (Landroid/graphics/Rect;)Z]
+      [49] pop
+      [50] aload_0 v0
+      [51] getfield #67
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.x Landroid/text/Layout;]
+      [54] invokevirtual #98
+        + Methodref [android/text/Layout.getWidth ()I]
+      [57] aload_0 v0
+      [58] getfield #68
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.y Landroid/text/Layout;]
+      [61] invokevirtual #98
+        + Methodref [android/text/Layout.getWidth ()I]
+      [64] invokestatic #137
+        + Methodref [java/lang/Math.max (II)I]
+      [67] istore_3 v3
+      [68] aload_0 v0
+      [69] getfield #47
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.d I]
+      [72] iload_3 v3
+      [73] iconst_2
+      [74] imul
+      [75] aload_0 v0
+      [76] getfield #46
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.c I]
+      [79] iconst_4
+      [80] imul
+      [81] iadd
+      [82] aload_0 v0
+      [83] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [86] getfield #29
+        + Fieldref [android/graphics/Rect.left I]
+      [89] iadd
+      [90] aload_0 v0
+      [91] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [94] getfield #30
+        + Fieldref [android/graphics/Rect.right I]
+      [97] iadd
+      [98] invokestatic #137
+        + Methodref [java/lang/Math.max (II)I]
+      [101] istore v4
+      [103] aload_0 v0
+      [104] getfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [107] invokevirtual #91
+        + Methodref [android/graphics/drawable/Drawable.getIntrinsicHeight ()I]
+      [110] istore v5
+      [112] aload_0 v0
+      [113] iload_3 v3
+      [114] aload_0 v0
+      [115] getfield #46
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.c I]
+      [118] iconst_2
+      [119] imul
+      [120] iadd
+      [121] putfield #60
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.q I]
+      [124] aload_0 v0
+      [125] iload v4
+      [127] putfield #58
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.o I]
+      [130] aload_0 v0
+      [131] iload v5
+      [133] putfield #59
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.p I]
+      [136] aload_0 v0
+      [137] iload_1 v1
+      [138] iload_2 v2
+      [139] invokespecial #130
+        + Methodref [android/widget/CompoundButton.onMeasure (II)V]
+      [142] aload_0 v0
+      [143] invokevirtual #145
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getMeasuredHeight ()I]
+      [146] iload v5
+      [148] ificmpge +32 (target=180)
+      [151] getstatic #35
+        + Fieldref [android/os/Build$VERSION.SDK_INT I]
+      [154] bipush 11
+      [156] ificmpge +14 (target=170)
+      [159] aload_0 v0
+      [160] aload_0 v0
+      [161] invokevirtual #146
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getMeasuredWidth ()I]
+      [164] iload v5
+      [166] invokevirtual #165
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.setMeasuredDimension (II)V]
+      [169] return
+      [170] aload_0 v0
+      [171] aload_0 v0
+      [172] invokevirtual #147
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getMeasuredWidthAndState ()I]
+      [175] iload v5
+      [177] invokevirtual #165
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.setMeasuredDimension (II)V]
+      [180] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+    + Runtime invisible annotations attribute:
+      - Annotation [Landroid/annotation/SuppressLint;]:
+        - Array element value [value]:
+          + Constant element value [(default) 's']
+            + Utf8 [NewApi]
+  + Method:       a(Ljava/lang/CharSequence;)Landroid/text/Layout;
+    Access flags: 0x2
+      = private android.text.Layout a(java.lang.CharSequence)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 32, locals = 2, stack = 9):
+      [0] new #15
+        + Class [android/text/StaticLayout]
+      [3] dup
+      [4] aload_1 v1
+      [5] aload_0 v0
+      [6] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [9] aload_1 v1
+      [10] aload_0 v0
+      [11] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [14] invokestatic #96
+        + Methodref [android/text/Layout.getDesiredWidth (Ljava/lang/CharSequence;Landroid/text/TextPaint;)F]
+      [17] f2d
+      [18] invokestatic #135
+        + Methodref [java/lang/Math.ceil (D)D]
+      [21] d2i
+      [22] getstatic #36
+        + Fieldref [android/text/Layout$Alignment.ALIGN_NORMAL Landroid/text/Layout$Alignment;]
+      [25] fconst_1
+      [26] fconst_0
+      [27] iconst_1
+      [28] invokespecial #99
+        + Methodref [android/text/StaticLayout.<init> (Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V]
+      [31] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onTouchEvent(Landroid/view/MotionEvent;)Z
+    Access flags: 0x1
+      = public boolean onTouchEvent(android.view.MotionEvent)
+    Class member attributes (count = 2):
+    + Code attribute instructions (code length = 584, locals = 11, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #55
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.l Landroid/view/VelocityTracker;]
+      [4] aload_1 v1
+      [5] invokevirtual #116
+        + Methodref [android/view/VelocityTracker.addMovement (Landroid/view/MotionEvent;)V]
+      [8] getstatic #35
+        + Fieldref [android/os/Build$VERSION.SDK_INT I]
+      [11] bipush 8
+      [13] ificmpge +11 (target=24)
+      [16] aload_1 v1
+      [17] invokevirtual #109
+        + Methodref [android/view/MotionEvent.getAction ()I]
+      [20] istore_2 v2
+      [21] goto +8 (target=29)
+      [24] aload_1 v1
+      [25] invokevirtual #110
+        + Methodref [android/view/MotionEvent.getActionMasked ()I]
+      [28] istore_2 v2
+      [29] iload_2 v2
+      [30] tableswitch (4 offsets, default=548) (target=578)
+        0: offset = 30, target = 60
+        1: offset = 377, target = 407
+        2: offset = 213, target = 243
+        3: offset = 377, target = 407
+        default: offset = 548, target = 578
+      [60] aload_1 v1
+      [61] invokevirtual #111
+        + Methodref [android/view/MotionEvent.getX ()F]
+      [64] fstore_2 v2
+      [65] aload_1 v1
+      [66] invokevirtual #112
+        + Methodref [android/view/MotionEvent.getY ()F]
+      [69] fstore_3 v3
+      [70] aload_0 v0
+      [71] invokevirtual #160
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.isEnabled ()Z]
+      [74] ifeq +504 (target=578)
+      [77] aload_0 v0
+      [78] fload_2 v2
+      [79] fload_3 v3
+      [80] fstore v6
+      [82] fstore v5
+      [84] dup
+      [85] astore v4
+      [87] getfield #44
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.a Landroid/graphics/drawable/Drawable;]
+      [90] aload v4
+      [92] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [95] invokevirtual #92
+        + Methodref [android/graphics/drawable/Drawable.getPadding (Landroid/graphics/Rect;)Z]
+      [98] pop
+      [99] aload v4
+      [101] getfield #62
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.s I]
+      [104] aload v4
+      [106] getfield #52
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.i I]
+      [109] isub
+      [110] istore v7
+      [112] aload v4
+      [114] getfield #61
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.r I]
+      [117] aload v4
+      [119] getfield #57
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.n F]
+      [122] ldc #3
+        + Float [0.5]
+      [124] fadd
+      [125] f2i
+      [126] iadd
+      [127] aload v4
+      [129] getfield #52
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.i I]
+      [132] isub
+      [133] dup
+      [134] istore v8
+      [136] aload v4
+      [138] getfield #60
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.q I]
+      [141] iadd
+      [142] aload v4
+      [144] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [147] getfield #29
+        + Fieldref [android/graphics/Rect.left I]
+      [150] iadd
+      [151] aload v4
+      [153] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [156] getfield #30
+        + Fieldref [android/graphics/Rect.right I]
+      [159] iadd
+      [160] aload v4
+      [162] getfield #52
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.i I]
+      [165] iadd
+      [166] istore v9
+      [168] aload v4
+      [170] getfield #64
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.u I]
+      [173] aload v4
+      [175] getfield #52
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.i I]
+      [178] iadd
+      [179] istore v10
+      [181] fload v5
+      [183] iload v8
+      [185] i2f
+      [186] fcmpl
+      [187] ifle +34 (target=221)
+      [190] fload v5
+      [192] iload v9
+      [194] i2f
+      [195] fcmpg
+      [196] ifge +25 (target=221)
+      [199] fload v6
+      [201] iload v7
+      [203] i2f
+      [204] fcmpl
+      [205] ifle +16 (target=221)
+      [208] fload v6
+      [210] iload v10
+      [212] i2f
+      [213] fcmpg
+      [214] ifge +7 (target=221)
+      [217] iconst_1
+      [218] goto +4 (target=222)
+      [221] iconst_0
+      [222] ifeq +356 (target=578)
+      [225] aload_0 v0
+      [226] iconst_1
+      [227] putfield #51
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.h I]
+      [230] aload_0 v0
+      [231] fload_2 v2
+      [232] putfield #53
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.j F]
+      [235] aload_0 v0
+      [236] fload_3 v3
+      [237] putfield #54
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.k F]
+      [240] goto +338 (target=578)
+      [243] aload_0 v0
+      [244] getfield #51
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.h I]
+      [247] tableswitch (3 offsets, default=157) (target=404)
+        0: offset = 25, target = 272
+        1: offset = 28, target = 275
+        2: offset = 101, target = 348
+        default: offset = 157, target = 404
+      [272] goto +306 (target=578)
+      [275] aload_1 v1
+      [276] invokevirtual #111
+        + Methodref [android/view/MotionEvent.getX ()F]
+      [279] fstore_2 v2
+      [280] aload_1 v1
+      [281] invokevirtual #112
+        + Methodref [android/view/MotionEvent.getY ()F]
+      [284] fstore_3 v3
+      [285] fload_2 v2
+      [286] aload_0 v0
+      [287] getfield #53
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.j F]
+      [290] fsub
+      [291] invokestatic #134
+        + Methodref [java/lang/Math.abs (F)F]
+      [294] aload_0 v0
+      [295] getfield #52
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.i I]
+      [298] i2f
+      [299] fcmpl
+      [300] ifgt +21 (target=321)
+      [303] fload_3 v3
+      [304] aload_0 v0
+      [305] getfield #54
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.k F]
+      [308] fsub
+      [309] invokestatic #134
+        + Methodref [java/lang/Math.abs (F)F]
+      [312] aload_0 v0
+      [313] getfield #52
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.i I]
+      [316] i2f
+      [317] fcmpl
+      [318] ifle +86 (target=404)
+      [321] aload_0 v0
+      [322] iconst_2
+      [323] putfield #51
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.h I]
+      [326] aload_0 v0
+      [327] invokevirtual #151
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getParent ()Landroid/view/ViewParent;]
+      [330] iconst_1
+      [331] invokeinterface #167, 512
+        + InterfaceMethodref [android/view/ViewParent.requestDisallowInterceptTouchEvent (Z)V]
+      [336] aload_0 v0
+      [337] fload_2 v2
+      [338] putfield #53
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.j F]
+      [341] aload_0 v0
+      [342] fload_3 v3
+      [343] putfield #54
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.k F]
+      [346] iconst_1
+      [347] ireturn
+      [348] aload_1 v1
+      [349] invokevirtual #111
+        + Methodref [android/view/MotionEvent.getX ()F]
+      [352] dup
+      [353] fstore_2 v2
+      [354] aload_0 v0
+      [355] getfield #53
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.j F]
+      [358] fsub
+      [359] fstore_3 v3
+      [360] fconst_0
+      [361] aload_0 v0
+      [362] getfield #57
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.n F]
+      [365] fload_3 v3
+      [366] fadd
+      [367] aload_0 v0
+      [368] invokespecial #156
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getThumbScrollRange ()I]
+      [371] i2f
+      [372] invokestatic #138
+        + Methodref [java/lang/Math.min (FF)F]
+      [375] invokestatic #136
+        + Methodref [java/lang/Math.max (FF)F]
+      [378] dup
+      [379] fstore_1 v1
+      [380] aload_0 v0
+      [381] getfield #57
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.n F]
+      [384] fcmpl
+      [385] ifeq +17 (target=402)
+      [388] aload_0 v0
+      [389] fload_1 v1
+      [390] putfield #57
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.n F]
+      [393] aload_0 v0
+      [394] fload_2 v2
+      [395] putfield #53
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.j F]
+      [398] aload_0 v0
+      [399] invokevirtual #158
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.invalidate ()V]
+      [402] iconst_1
+      [403] ireturn
+      [404] goto +174 (target=578)
+      [407] aload_0 v0
+      [408] getfield #51
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.h I]
+      [411] iconst_2
+      [412] ificmpne +154 (target=566)
+      [415] aload_0 v0
+      [416] aload_1 v1
+      [417] astore v5
+      [419] dup
+      [420] astore v4
+      [422] iconst_0
+      [423] putfield #51
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.h I]
+      [426] aload v5
+      [428] invokevirtual #109
+        + Methodref [android/view/MotionEvent.getAction ()I]
+      [431] iconst_1
+      [432] ificmpne +15 (target=447)
+      [435] aload v4
+      [437] invokevirtual #160
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.isEnabled ()Z]
+      [440] ifeq +7 (target=447)
+      [443] iconst_1
+      [444] goto +4 (target=448)
+      [447] iconst_0
+      [448] istore v6
+      [450] aload v4
+      [452] aload v5
+      [454] astore v10
+      [456] astore v9
+      [458] aload v10
+      [460] invokestatic #113
+        + Methodref [android/view/MotionEvent.obtain (Landroid/view/MotionEvent;)Landroid/view/MotionEvent;]
+      [463] dup
+      [464] astore_1 v1
+      [465] iconst_3
+      [466] invokevirtual #115
+        + Methodref [android/view/MotionEvent.setAction (I)V]
+      [469] aload v9
+      [471] aload_1 v1
+      [472] invokespecial #131
+        + Methodref [android/widget/CompoundButton.onTouchEvent (Landroid/view/MotionEvent;)Z]
+      [475] pop
+      [476] aload_1 v1
+      [477] invokevirtual #114
+        + Methodref [android/view/MotionEvent.recycle ()V]
+      [480] iload v6
+      [482] ifeq +72 (target=554)
+      [485] aload v4
+      [487] getfield #55
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.l Landroid/view/VelocityTracker;]
+      [490] sipush 1000
+      [493] invokevirtual #118
+        + Methodref [android/view/VelocityTracker.computeCurrentVelocity (I)V]
+      [496] aload v4
+      [498] getfield #55
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.l Landroid/view/VelocityTracker;]
+      [501] invokevirtual #119
+        + Methodref [android/view/VelocityTracker.getXVelocity ()F]
+      [504] dup
+      [505] fstore v8
+      [507] invokestatic #134
+        + Methodref [java/lang/Math.abs (F)F]
+      [510] aload v4
+      [512] getfield #56
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.m I]
+      [515] i2f
+      [516] fcmpl
+      [517] ifle +20 (target=537)
+      [520] fload v8
+      [522] fconst_0
+      [523] fcmpl
+      [524] ifle +7 (target=531)
+      [527] iconst_1
+      [528] goto +4 (target=532)
+      [531] iconst_0
+      [532] istore v7
+      [534] goto +10 (target=544)
+      [537] aload v4
+      [539] invokespecial #153
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getTargetCheckedState ()Z]
+      [542] istore v7
+      [544] aload v4
+      [546] iload v7
+      [548] invokevirtual #164
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.setChecked (Z)V]
+      [551] goto +13 (target=564)
+      [554] aload v4
+      [556] aload v4
+      [558] invokevirtual #159
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.isChecked ()Z]
+      [561] invokevirtual #164
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.setChecked (Z)V]
+      [564] iconst_1
+      [565] ireturn
+      [566] aload_0 v0
+      [567] iconst_0
+      [568] putfield #51
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.h I]
+      [571] aload_0 v0
+      [572] getfield #55
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.l Landroid/view/VelocityTracker;]
+      [575] invokevirtual #117
+        + Methodref [android/view/VelocityTracker.clear ()V]
+      [578] aload_0 v0
+      [579] aload_1 v1
+      [580] invokespecial #131
+        + Methodref [android/widget/CompoundButton.onTouchEvent (Landroid/view/MotionEvent;)Z]
+      [583] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+    + Runtime invisible annotations attribute:
+      - Annotation [Landroid/annotation/SuppressLint;]:
+        - Array element value [value]:
+          + Constant element value [(default) 's']
+            + Utf8 [NewApi]
+  + Method:       getTargetCheckedState()Z
+    Access flags: 0x2
+      = private boolean getTargetCheckedState()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #57
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.n F]
+      [4] aload_0 v0
+      [5] invokespecial #156
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getThumbScrollRange ()I]
+      [8] iconst_2
+      [9] idiv
+      [10] i2f
+      [11] fcmpl
+      [12] iflt +5 (target=17)
+      [15] iconst_1
+      [16] ireturn
+      [17] iconst_0
+      [18] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setChecked(Z)V
+    Access flags: 0x1
+      = public void setChecked(boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 27, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] invokespecial #132
+        + Methodref [android/widget/CompoundButton.setChecked (Z)V]
+      [5] aload_0 v0
+      [6] iload_1 v1
+      [7] ifeq +11 (target=18)
+      [10] aload_0 v0
+      [11] invokespecial #156
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getThumbScrollRange ()I]
+      [14] i2f
+      [15] goto +4 (target=19)
+      [18] fconst_0
+      [19] putfield #57
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.n F]
+      [22] aload_0 v0
+      [23] invokevirtual #158
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.invalidate ()V]
+      [26] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onLayout(ZIIII)V
+    Access flags: 0x4
+      = protected void onLayout(boolean,int,int,int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 171, locals = 6, stack = 6):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] iload_2 v2
+      [3] iload_3 v3
+      [4] iload v4
+      [6] iload v5
+      [8] invokespecial #129
+        + Methodref [android/widget/CompoundButton.onLayout (ZIIII)V]
+      [11] aload_0 v0
+      [12] aload_0 v0
+      [13] invokevirtual #159
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.isChecked ()Z]
+      [16] ifeq +11 (target=27)
+      [19] aload_0 v0
+      [20] invokespecial #156
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getThumbScrollRange ()I]
+      [23] i2f
+      [24] goto +4 (target=28)
+      [27] fconst_0
+      [28] putfield #57
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.n F]
+      [31] aload_0 v0
+      [32] invokevirtual #157
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getWidth ()I]
+      [35] aload_0 v0
+      [36] invokevirtual #149
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getPaddingRight ()I]
+      [39] isub
+      [40] dup
+      [41] istore_1 v1
+      [42] aload_0 v0
+      [43] getfield #58
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.o I]
+      [46] isub
+      [47] istore_2 v2
+      [48] aload_0 v0
+      [49] invokevirtual #143
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getGravity ()I]
+      [52] bipush 112
+      [54] iand
+      [55] lookupswitch (2 offsets, default=25) (target=80)
+        16: offset = 41, target = 96
+        80: offset = 76, target = 131
+        default: offset = 25, target = 80
+      [80] aload_0 v0
+      [81] invokevirtual #150
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getPaddingTop ()I]
+      [84] dup
+      [85] istore_3 v3
+      [86] aload_0 v0
+      [87] getfield #59
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.p I]
+      [90] iadd
+      [91] istore v4
+      [93] goto +56 (target=149)
+      [96] aload_0 v0
+      [97] invokevirtual #150
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getPaddingTop ()I]
+      [100] aload_0 v0
+      [101] invokevirtual #144
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getHeight ()I]
+      [104] iadd
+      [105] aload_0 v0
+      [106] invokevirtual #148
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getPaddingBottom ()I]
+      [109] isub
+      [110] iconst_2
+      [111] idiv
+      [112] aload_0 v0
+      [113] getfield #59
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.p I]
+      [116] iconst_2
+      [117] idiv
+      [118] isub
+      [119] dup
+      [120] istore_3 v3
+      [121] aload_0 v0
+      [122] getfield #59
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.p I]
+      [125] iadd
+      [126] istore v4
+      [128] goto +21 (target=149)
+      [131] aload_0 v0
+      [132] invokevirtual #144
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getHeight ()I]
+      [135] aload_0 v0
+      [136] invokevirtual #148
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getPaddingBottom ()I]
+      [139] isub
+      [140] dup
+      [141] istore v4
+      [143] aload_0 v0
+      [144] getfield #59
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.p I]
+      [147] isub
+      [148] istore_3 v3
+      [149] aload_0 v0
+      [150] iload_2 v2
+      [151] putfield #61
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.r I]
+      [154] aload_0 v0
+      [155] iload_3 v3
+      [156] putfield #62
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.s I]
+      [159] aload_0 v0
+      [160] iload v4
+      [162] putfield #64
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.u I]
+      [165] aload_0 v0
+      [166] iload_1 v1
+      [167] putfield #63
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.t I]
+      [170] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDraw(Landroid/graphics/Canvas;)V
+    Access flags: 0x4
+      = protected void onDraw(android.graphics.Canvas)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 301, locals = 9, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #128
+        + Methodref [android/widget/CompoundButton.onDraw (Landroid/graphics/Canvas;)V]
+      [5] aload_0 v0
+      [6] getfield #61
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.r I]
+      [9] istore_2 v2
+      [10] aload_0 v0
+      [11] getfield #62
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.s I]
+      [14] istore_3 v3
+      [15] aload_0 v0
+      [16] getfield #63
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.t I]
+      [19] istore v4
+      [21] aload_0 v0
+      [22] getfield #64
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.u I]
+      [25] istore v5
+      [27] aload_0 v0
+      [28] getfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [31] iload_2 v2
+      [32] iload_3 v3
+      [33] iload v4
+      [35] iload v5
+      [37] invokevirtual #93
+        + Methodref [android/graphics/drawable/Drawable.setBounds (IIII)V]
+      [40] aload_0 v0
+      [41] getfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [44] aload_1 v1
+      [45] invokevirtual #90
+        + Methodref [android/graphics/drawable/Drawable.draw (Landroid/graphics/Canvas;)V]
+      [48] aload_1 v1
+      [49] invokevirtual #84
+        + Methodref [android/graphics/Canvas.save ()I]
+      [52] pop
+      [53] aload_0 v0
+      [54] getfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [57] aload_0 v0
+      [58] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [61] invokevirtual #92
+        + Methodref [android/graphics/drawable/Drawable.getPadding (Landroid/graphics/Rect;)Z]
+      [64] pop
+      [65] iload_2 v2
+      [66] aload_0 v0
+      [67] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [70] getfield #29
+        + Fieldref [android/graphics/Rect.left I]
+      [73] iadd
+      [74] istore_2 v2
+      [75] iload_3 v3
+      [76] aload_0 v0
+      [77] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [80] getfield #31
+        + Fieldref [android/graphics/Rect.top I]
+      [83] iadd
+      [84] istore v6
+      [86] iload v4
+      [88] aload_0 v0
+      [89] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [92] getfield #30
+        + Fieldref [android/graphics/Rect.right I]
+      [95] isub
+      [96] istore v4
+      [98] iload v5
+      [100] aload_0 v0
+      [101] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [104] getfield #28
+        + Fieldref [android/graphics/Rect.bottom I]
+      [107] isub
+      [108] istore v7
+      [110] aload_1 v1
+      [111] iload_2 v2
+      [112] iload_3 v3
+      [113] iload v4
+      [115] iload v5
+      [117] invokevirtual #82
+        + Methodref [android/graphics/Canvas.clipRect (IIII)Z]
+      [120] pop
+      [121] aload_0 v0
+      [122] getfield #44
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.a Landroid/graphics/drawable/Drawable;]
+      [125] aload_0 v0
+      [126] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [129] invokevirtual #92
+        + Methodref [android/graphics/drawable/Drawable.getPadding (Landroid/graphics/Rect;)Z]
+      [132] pop
+      [133] aload_0 v0
+      [134] getfield #57
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.n F]
+      [137] ldc #3
+        + Float [0.5]
+      [139] fadd
+      [140] f2i
+      [141] istore v4
+      [143] iload_2 v2
+      [144] aload_0 v0
+      [145] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [148] getfield #29
+        + Fieldref [android/graphics/Rect.left I]
+      [151] isub
+      [152] iload v4
+      [154] iadd
+      [155] istore v8
+      [157] iload_2 v2
+      [158] iload v4
+      [160] iadd
+      [161] aload_0 v0
+      [162] getfield #60
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.q I]
+      [165] iadd
+      [166] aload_0 v0
+      [167] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [170] getfield #30
+        + Fieldref [android/graphics/Rect.right I]
+      [173] iadd
+      [174] istore_2 v2
+      [175] aload_0 v0
+      [176] getfield #44
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.a Landroid/graphics/drawable/Drawable;]
+      [179] iload v8
+      [181] iload_3 v3
+      [182] iload_2 v2
+      [183] iload v5
+      [185] invokevirtual #93
+        + Methodref [android/graphics/drawable/Drawable.setBounds (IIII)V]
+      [188] aload_0 v0
+      [189] getfield #44
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.a Landroid/graphics/drawable/Drawable;]
+      [192] aload_1 v1
+      [193] invokevirtual #90
+        + Methodref [android/graphics/drawable/Drawable.draw (Landroid/graphics/Canvas;)V]
+      [196] aload_0 v0
+      [197] getfield #66
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.w Landroid/content/res/ColorStateList;]
+      [200] ifnull +28 (target=228)
+      [203] aload_0 v0
+      [204] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [207] aload_0 v0
+      [208] getfield #66
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.w Landroid/content/res/ColorStateList;]
+      [211] aload_0 v0
+      [212] invokevirtual #142
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getDrawableState ()[I]
+      [215] aload_0 v0
+      [216] getfield #66
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.w Landroid/content/res/ColorStateList;]
+      [219] invokevirtual #73
+        + Methodref [android/content/res/ColorStateList.getDefaultColor ()I]
+      [222] invokevirtual #72
+        + Methodref [android/content/res/ColorStateList.getColorForState ([II)I]
+      [225] invokevirtual #103
+        + Methodref [android/text/TextPaint.setColor (I)V]
+      [228] aload_0 v0
+      [229] getfield #65
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.v Landroid/text/TextPaint;]
+      [232] aload_0 v0
+      [233] invokevirtual #142
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getDrawableState ()[I]
+      [236] putfield #38
+        + Fieldref [android/text/TextPaint.drawableState [I]
+      [239] aload_0 v0
+      [240] invokespecial #153
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getTargetCheckedState ()Z]
+      [243] ifeq +10 (target=253)
+      [246] aload_0 v0
+      [247] getfield #67
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.x Landroid/text/Layout;]
+      [250] goto +7 (target=257)
+      [253] aload_0 v0
+      [254] getfield #68
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.y Landroid/text/Layout;]
+      [257] astore_3 v3
+      [258] aload_1 v1
+      [259] iload v8
+      [261] iload_2 v2
+      [262] iadd
+      [263] iconst_2
+      [264] idiv
+      [265] aload_3 v3
+      [266] invokevirtual #98
+        + Methodref [android/text/Layout.getWidth ()I]
+      [269] iconst_2
+      [270] idiv
+      [271] isub
+      [272] i2f
+      [273] iload v6
+      [275] iload v7
+      [277] iadd
+      [278] iconst_2
+      [279] idiv
+      [280] aload_3 v3
+      [281] invokevirtual #97
+        + Methodref [android/text/Layout.getHeight ()I]
+      [284] iconst_2
+      [285] idiv
+      [286] isub
+      [287] i2f
+      [288] invokevirtual #85
+        + Methodref [android/graphics/Canvas.translate (FF)V]
+      [291] aload_3 v3
+      [292] aload_1 v1
+      [293] invokevirtual #95
+        + Methodref [android/text/Layout.draw (Landroid/graphics/Canvas;)V]
+      [296] aload_1 v1
+      [297] invokevirtual #83
+        + Methodref [android/graphics/Canvas.restore ()V]
+      [300] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getCompoundPaddingRight()I
+    Access flags: 0x1
+      = public int getCompoundPaddingRight()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 29, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #126
+        + Methodref [android/widget/CompoundButton.getCompoundPaddingRight ()I]
+      [4] aload_0 v0
+      [5] getfield #58
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.o I]
+      [8] iadd
+      [9] istore_1 v1
+      [10] aload_0 v0
+      [11] invokevirtual #154
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getText ()Ljava/lang/CharSequence;]
+      [14] invokestatic #108
+        + Methodref [android/text/TextUtils.isEmpty (Ljava/lang/CharSequence;)Z]
+      [17] ifne +10 (target=27)
+      [20] iload_1 v1
+      [21] aload_0 v0
+      [22] getfield #48
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.e I]
+      [25] iadd
+      [26] istore_1 v1
+      [27] iload_1 v1
+      [28] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getThumbScrollRange()I
+    Access flags: 0x2
+      = private int getThumbScrollRange()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 47, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [4] ifnonnull +5 (target=9)
+      [7] iconst_0
+      [8] ireturn
+      [9] aload_0 v0
+      [10] getfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [13] aload_0 v0
+      [14] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [17] invokevirtual #92
+        + Methodref [android/graphics/drawable/Drawable.getPadding (Landroid/graphics/Rect;)Z]
+      [20] pop
+      [21] aload_0 v0
+      [22] getfield #58
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.o I]
+      [25] aload_0 v0
+      [26] getfield #60
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.q I]
+      [29] isub
+      [30] aload_0 v0
+      [31] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [34] getfield #29
+        + Fieldref [android/graphics/Rect.left I]
+      [37] isub
+      [38] aload_0 v0
+      [39] getfield #69
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.z Landroid/graphics/Rect;]
+      [42] getfield #30
+        + Fieldref [android/graphics/Rect.right I]
+      [45] isub
+      [46] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreateDrawableState(I)[I
+    Access flags: 0x4
+      = protected int[] onCreateDrawableState(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 25, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] iconst_1
+      [3] iadd
+      [4] invokespecial #127
+        + Methodref [android/widget/CompoundButton.onCreateDrawableState (I)[I]
+      [7] astore_1 v1
+      [8] aload_0 v0
+      [9] invokevirtual #159
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.isChecked ()Z]
+      [12] ifeq +11 (target=23)
+      [15] aload_1 v1
+      [16] getstatic #43
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.A [I]
+      [19] invokestatic #161
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.mergeDrawableStates ([I[I)[I]
+      [22] pop
+      [23] aload_1 v1
+      [24] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       drawableStateChanged()V
+    Access flags: 0x4
+      = protected void drawableStateChanged()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 46, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #125
+        + Methodref [android/widget/CompoundButton.drawableStateChanged ()V]
+      [4] aload_0 v0
+      [5] invokevirtual #142
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.getDrawableState ()[I]
+      [8] astore_1 v1
+      [9] aload_0 v0
+      [10] getfield #44
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.a Landroid/graphics/drawable/Drawable;]
+      [13] ifnull +12 (target=25)
+      [16] aload_0 v0
+      [17] getfield #44
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.a Landroid/graphics/drawable/Drawable;]
+      [20] aload_1 v1
+      [21] invokevirtual #94
+        + Methodref [android/graphics/drawable/Drawable.setState ([I)Z]
+      [24] pop
+      [25] aload_0 v0
+      [26] getfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [29] ifnull +12 (target=41)
+      [32] aload_0 v0
+      [33] getfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [36] aload_1 v1
+      [37] invokevirtual #94
+        + Methodref [android/graphics/drawable/Drawable.setState ([I)Z]
+      [40] pop
+      [41] aload_0 v0
+      [42] invokevirtual #158
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.invalidate ()V]
+      [45] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       verifyDrawable(Landroid/graphics/drawable/Drawable;)Z
+    Access flags: 0x4
+      = protected boolean verifyDrawable(android.graphics.drawable.Drawable)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 28, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #133
+        + Methodref [android/widget/CompoundButton.verifyDrawable (Landroid/graphics/drawable/Drawable;)Z]
+      [5] ifne +19 (target=24)
+      [8] aload_1 v1
+      [9] aload_0 v0
+      [10] getfield #44
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.a Landroid/graphics/drawable/Drawable;]
+      [13] ifacmpeq +11 (target=24)
+      [16] aload_1 v1
+      [17] aload_0 v0
+      [18] getfield #45
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.b Landroid/graphics/drawable/Drawable;]
+      [21] ifacmpne +5 (target=26)
+      [24] iconst_1
+      [25] ireturn
+      [26] iconst_0
+      [27] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 0, stack = 4):
+      [0] iconst_1
+      [1] newarray 10
+      [3] dup
+      [4] iconst_0
+      [5] ldc #1
+        + Integer [16842912]
+      [7] iastore
+      [8] putstatic #43
+        + Fieldref [org/jraf/android/backport/switchwidget/Switch.A [I]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: org/jraf/android/backport/switchwidget/SwitchPreference
+  Superclass:    org/jraf/android/backport/switchwidget/TwoStatePreference
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class org.jraf.android.backport.switchwidget.SwitchPreference extends org.jraf.android.backport.switchwidget.TwoStatePreference
+
+Interfaces (count = 0):
+
+Constant Pool (count = 137):
+  + Class [android/content/Context]
+  + Class [android/content/res/TypedArray]
+  + Class [android/view/View]
+  + Class [android/widget/Checkable]
+  + Class [org/jraf/android/backport/switchwidget/R$attr]
+  + Class [org/jraf/android/backport/switchwidget/R$id]
+  + Class [org/jraf/android/backport/switchwidget/R$styleable]
+  + Class [org/jraf/android/backport/switchwidget/Switch]
+  + Class [org/jraf/android/backport/switchwidget/SwitchPreference]
+  + Class [org/jraf/android/backport/switchwidget/TwoStatePreference]
+  + Class [org/jraf/android/backport/switchwidget/a]
+  + Fieldref [org/jraf/android/backport/switchwidget/R$attr.asb_switchPreferenceStyle I]
+  + Fieldref [org/jraf/android/backport/switchwidget/R$id.switchWidget I]
+  + Fieldref [org/jraf/android/backport/switchwidget/R$styleable.SwitchPreference [I]
+  + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mChecked Z]
+  + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mListener Lorg/jraf/android/backport/switchwidget/a;]
+  + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mSwitchOff Ljava/lang/CharSequence;]
+  + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mSwitchOn Ljava/lang/CharSequence;]
+  + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+  + Methodref [android/content/Context.obtainStyledAttributes (Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;]
+  + Methodref [android/content/res/TypedArray.getBoolean (IZ)Z]
+  + Methodref [android/content/res/TypedArray.getString (I)Ljava/lang/String;]
+  + Methodref [android/content/res/TypedArray.recycle ()V]
+  + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.setOnCheckedChangeListener (Landroid/widget/CompoundButton$OnCheckedChangeListener;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.setTextOff (Ljava/lang/CharSequence;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/Switch.setTextOn (Ljava/lang/CharSequence;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.callChangeListener (Ljava/lang/Object;)Z]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.getContext ()Landroid/content/Context;]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.notifyChanged ()V]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setDisableDependentsState (Z)V]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setSummaryOff (Ljava/lang/CharSequence;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setSummaryOn (Ljava/lang/CharSequence;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setSwitchTextOff (Ljava/lang/CharSequence;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setSwitchTextOn (Ljava/lang/CharSequence;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.syncSummaryView (Landroid/view/View;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.<init> (Landroid/content/Context;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.onBindView (Landroid/view/View;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/a.<init> (Lorg/jraf/android/backport/switchwidget/SwitchPreference;B)V]
+  + InterfaceMethodref [android/widget/Checkable.setChecked (Z)V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + NameAndType [<init> (Lorg/jraf/android/backport/switchwidget/SwitchPreference;B)V]
+  + NameAndType [SwitchPreference [I]
+  + NameAndType [asb_switchPreferenceStyle I]
+  + NameAndType [callChangeListener (Ljava/lang/Object;)Z]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getBoolean (IZ)Z]
+  + NameAndType [getContext ()Landroid/content/Context;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [mChecked Z]
+  + NameAndType [mListener Lorg/jraf/android/backport/switchwidget/a;]
+  + NameAndType [mSwitchOff Ljava/lang/CharSequence;]
+  + NameAndType [mSwitchOn Ljava/lang/CharSequence;]
+  + NameAndType [notifyChanged ()V]
+  + NameAndType [obtainStyledAttributes (Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;]
+  + NameAndType [onBindView (Landroid/view/View;)V]
+  + NameAndType [recycle ()V]
+  + NameAndType [setChecked (Z)V]
+  + NameAndType [setDisableDependentsState (Z)V]
+  + NameAndType [setOnCheckedChangeListener (Landroid/widget/CompoundButton$OnCheckedChangeListener;)V]
+  + NameAndType [setSummaryOff (Ljava/lang/CharSequence;)V]
+  + NameAndType [setSummaryOn (Ljava/lang/CharSequence;)V]
+  + NameAndType [setSwitchTextOff (Ljava/lang/CharSequence;)V]
+  + NameAndType [setSwitchTextOn (Ljava/lang/CharSequence;)V]
+  + NameAndType [setTextOff (Ljava/lang/CharSequence;)V]
+  + NameAndType [setTextOn (Ljava/lang/CharSequence;)V]
+  + NameAndType [switchWidget I]
+  + NameAndType [syncSummaryView (Landroid/view/View;)V]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Ljava/lang/CharSequence;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(IZ)Z]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Utf8 [(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Lorg/jraf/android/backport/switchwidget/SwitchPreference;B)V]
+  + Utf8 [(Lorg/jraf/android/backport/switchwidget/SwitchPreference;Ljava/lang/Object;)Z]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Ljava/lang/CharSequence;]
+  + Utf8 [Lorg/jraf/android/backport/switchwidget/a;]
+  + Utf8 [SwitchPreference]
+  + Utf8 [Z]
+  + Utf8 [[I]
+  + Utf8 [access$100]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/res/TypedArray]
+  + Utf8 [android/view/View]
+  + Utf8 [android/widget/Checkable]
+  + Utf8 [asb_switchPreferenceStyle]
+  + Utf8 [callChangeListener]
+  + Utf8 [findViewById]
+  + Utf8 [getBoolean]
+  + Utf8 [getContext]
+  + Utf8 [getString]
+  + Utf8 [getSwitchTextOff]
+  + Utf8 [getSwitchTextOn]
+  + Utf8 [mChecked]
+  + Utf8 [mListener]
+  + Utf8 [mSwitchOff]
+  + Utf8 [mSwitchOn]
+  + Utf8 [notifyChanged]
+  + Utf8 [obtainStyledAttributes]
+  + Utf8 [onBindView]
+  + Utf8 [org/jraf/android/backport/switchwidget/R$attr]
+  + Utf8 [org/jraf/android/backport/switchwidget/R$id]
+  + Utf8 [org/jraf/android/backport/switchwidget/R$styleable]
+  + Utf8 [org/jraf/android/backport/switchwidget/Switch]
+  + Utf8 [org/jraf/android/backport/switchwidget/SwitchPreference]
+  + Utf8 [org/jraf/android/backport/switchwidget/TwoStatePreference]
+  + Utf8 [org/jraf/android/backport/switchwidget/a]
+  + Utf8 [recycle]
+  + Utf8 [setChecked]
+  + Utf8 [setDisableDependentsState]
+  + Utf8 [setOnCheckedChangeListener]
+  + Utf8 [setSummaryOff]
+  + Utf8 [setSummaryOn]
+  + Utf8 [setSwitchTextOff]
+  + Utf8 [setSwitchTextOn]
+  + Utf8 [setTextOff]
+  + Utf8 [setTextOn]
+  + Utf8 [switchWidget]
+  + Utf8 [syncSummaryView]
+
+Fields (count = 3):
+  + Field:        mSwitchOn Ljava/lang/CharSequence;
+    Access flags: 0x2
+      = private java.lang.CharSequence mSwitchOn
+  + Field:        mSwitchOff Ljava/lang/CharSequence;
+    Access flags: 0x2
+      = private java.lang.CharSequence mSwitchOff
+  + Field:        mListener Lorg/jraf/android/backport/switchwidget/a;
+    Access flags: 0x12
+      = private final org.jraf.android.backport.switchwidget.a mListener
+
+Methods (count = 11):
+  - Method:       <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    Access flags: 0x1
+      = public SwitchPreference(android.content.Context,android.util.AttributeSet,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 84, locals = 4, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] iload_3 v3
+      [4] invokespecial #39
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+      [7] aload_0 v0
+      [8] new #11
+        + Class [org/jraf/android/backport/switchwidget/a]
+      [11] dup
+      [12] aload_0 v0
+      [13] iconst_0
+      [14] invokespecial #41
+        + Methodref [org/jraf/android/backport/switchwidget/a.<init> (Lorg/jraf/android/backport/switchwidget/SwitchPreference;B)V]
+      [17] putfield #16
+        + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mListener Lorg/jraf/android/backport/switchwidget/a;]
+      [20] aload_1 v1
+      [21] aload_2 v2
+      [22] getstatic #14
+        + Fieldref [org/jraf/android/backport/switchwidget/R$styleable.SwitchPreference [I]
+      [25] getstatic #12
+        + Fieldref [org/jraf/android/backport/switchwidget/R$attr.asb_switchPreferenceStyle I]
+      [28] iconst_0
+      [29] invokevirtual #20
+        + Methodref [android/content/Context.obtainStyledAttributes (Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;]
+      [32] astore_1 v1
+      [33] aload_0 v0
+      [34] aload_1 v1
+      [35] iconst_0
+      [36] invokevirtual #22
+        + Methodref [android/content/res/TypedArray.getString (I)Ljava/lang/String;]
+      [39] invokevirtual #34
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setSummaryOn (Ljava/lang/CharSequence;)V]
+      [42] aload_0 v0
+      [43] aload_1 v1
+      [44] iconst_1
+      [45] invokevirtual #22
+        + Methodref [android/content/res/TypedArray.getString (I)Ljava/lang/String;]
+      [48] invokevirtual #33
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setSummaryOff (Ljava/lang/CharSequence;)V]
+      [51] aload_0 v0
+      [52] aload_1 v1
+      [53] iconst_2
+      [54] invokevirtual #22
+        + Methodref [android/content/res/TypedArray.getString (I)Ljava/lang/String;]
+      [57] invokevirtual #36
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setSwitchTextOn (Ljava/lang/CharSequence;)V]
+      [60] aload_0 v0
+      [61] aload_1 v1
+      [62] iconst_3
+      [63] invokevirtual #22
+        + Methodref [android/content/res/TypedArray.getString (I)Ljava/lang/String;]
+      [66] invokevirtual #35
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setSwitchTextOff (Ljava/lang/CharSequence;)V]
+      [69] aload_0 v0
+      [70] aload_1 v1
+      [71] iconst_4
+      [72] iconst_0
+      [73] invokevirtual #21
+        + Methodref [android/content/res/TypedArray.getBoolean (IZ)Z]
+      [76] invokevirtual #32
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setDisableDependentsState (Z)V]
+      [79] aload_1 v1
+      [80] invokevirtual #23
+        + Methodref [android/content/res/TypedArray.recycle ()V]
+      [83] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    Access flags: 0x1
+      = public SwitchPreference(android.content.Context,android.util.AttributeSet)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] getstatic #12
+        + Fieldref [org/jraf/android/backport/switchwidget/R$attr.asb_switchPreferenceStyle I]
+      [6] invokespecial #28
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public SwitchPreference(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 2, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #38
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.<init> (Landroid/content/Context;)V]
+      [5] aload_0 v0
+      [6] new #11
+        + Class [org/jraf/android/backport/switchwidget/a]
+      [9] dup
+      [10] aload_0 v0
+      [11] iconst_0
+      [12] invokespecial #41
+        + Methodref [org/jraf/android/backport/switchwidget/a.<init> (Lorg/jraf/android/backport/switchwidget/SwitchPreference;B)V]
+      [15] putfield #16
+        + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mListener Lorg/jraf/android/backport/switchwidget/a;]
+      [18] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onBindView(Landroid/view/View;)V
+    Access flags: 0x4
+      = protected void onBindView(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 62, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #40
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.onBindView (Landroid/view/View;)V]
+      [5] aload_1 v1
+      [6] getstatic #13
+        + Fieldref [org/jraf/android/backport/switchwidget/R$id.switchWidget I]
+      [9] invokevirtual #24
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [12] checkcast #8
+        + Class [org/jraf/android/backport/switchwidget/Switch]
+      [15] dup
+      [16] astore_2 v2
+      [17] ifnull +39 (target=56)
+      [20] aload_2 v2
+      [21] aload_0 v0
+      [22] getfield #15
+        + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mChecked Z]
+      [25] invokeinterface #42, 512
+        + InterfaceMethodref [android/widget/Checkable.setChecked (Z)V]
+      [30] aload_2 v2
+      [31] dup
+      [32] astore_2 v2
+      [33] aload_0 v0
+      [34] getfield #18
+        + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mSwitchOn Ljava/lang/CharSequence;]
+      [37] invokevirtual #27
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.setTextOn (Ljava/lang/CharSequence;)V]
+      [40] aload_2 v2
+      [41] aload_0 v0
+      [42] getfield #17
+        + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mSwitchOff Ljava/lang/CharSequence;]
+      [45] invokevirtual #26
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.setTextOff (Ljava/lang/CharSequence;)V]
+      [48] aload_2 v2
+      [49] aload_0 v0
+      [50] getfield #16
+        + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mListener Lorg/jraf/android/backport/switchwidget/a;]
+      [53] invokevirtual #25
+        + Methodref [org/jraf/android/backport/switchwidget/Switch.setOnCheckedChangeListener (Landroid/widget/CompoundButton$OnCheckedChangeListener;)V]
+      [56] aload_0 v0
+      [57] aload_1 v1
+      [58] invokevirtual #37
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.syncSummaryView (Landroid/view/View;)V]
+      [61] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setSwitchTextOn(Ljava/lang/CharSequence;)V
+    Access flags: 0x1
+      = public void setSwitchTextOn(java.lang.CharSequence)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #18
+        + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mSwitchOn Ljava/lang/CharSequence;]
+      [5] aload_0 v0
+      [6] invokevirtual #31
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.notifyChanged ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setSwitchTextOff(Ljava/lang/CharSequence;)V
+    Access flags: 0x1
+      = public void setSwitchTextOff(java.lang.CharSequence)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #17
+        + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mSwitchOff Ljava/lang/CharSequence;]
+      [5] aload_0 v0
+      [6] invokevirtual #31
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.notifyChanged ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setSwitchTextOn(I)V
+    Access flags: 0x1
+      = public void setSwitchTextOn(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_0 v0
+      [2] invokevirtual #30
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.getContext ()Landroid/content/Context;]
+      [5] iload_1 v1
+      [6] invokevirtual #19
+        + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [9] invokevirtual #36
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setSwitchTextOn (Ljava/lang/CharSequence;)V]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setSwitchTextOff(I)V
+    Access flags: 0x1
+      = public void setSwitchTextOff(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_0 v0
+      [2] invokevirtual #30
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.getContext ()Landroid/content/Context;]
+      [5] iload_1 v1
+      [6] invokevirtual #19
+        + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [9] invokevirtual #35
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setSwitchTextOff (Ljava/lang/CharSequence;)V]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getSwitchTextOn()Ljava/lang/CharSequence;
+    Access flags: 0x1
+      = public java.lang.CharSequence getSwitchTextOn()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #18
+        + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mSwitchOn Ljava/lang/CharSequence;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getSwitchTextOff()Ljava/lang/CharSequence;
+    Access flags: 0x1
+      = public java.lang.CharSequence getSwitchTextOff()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #17
+        + Fieldref [org/jraf/android/backport/switchwidget/SwitchPreference.mSwitchOff Ljava/lang/CharSequence;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       access$100(Lorg/jraf/android/backport/switchwidget/SwitchPreference;Ljava/lang/Object;)Z
+    Access flags: 0x1008
+      = static synthetic boolean access$100(org.jraf.android.backport.switchwidget.SwitchPreference,java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokevirtual #29
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.callChangeListener (Ljava/lang/Object;)Z]
+      [5] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: org/jraf/android/backport/switchwidget/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x30
+    = final class org.jraf.android.backport.switchwidget.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/CompoundButton$OnCheckedChangeListener]
+
+Constant Pool (count = 41):
+  + Class [android/widget/CompoundButton]
+  + Class [android/widget/CompoundButton$OnCheckedChangeListener]
+  + Class [java/lang/Boolean]
+  + Class [java/lang/Object]
+  + Class [org/jraf/android/backport/switchwidget/SwitchPreference]
+  + Class [org/jraf/android/backport/switchwidget/a]
+  + Fieldref [org/jraf/android/backport/switchwidget/a.a Lorg/jraf/android/backport/switchwidget/SwitchPreference;]
+  + Methodref [android/widget/CompoundButton.setChecked (Z)V]
+  + Methodref [java/lang/Boolean.valueOf (Z)Ljava/lang/Boolean;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.access$100 (Lorg/jraf/android/backport/switchwidget/SwitchPreference;Ljava/lang/Object;)Z]
+  + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setChecked (Z)V]
+  + Methodref [org/jraf/android/backport/switchwidget/a.<init> (Lorg/jraf/android/backport/switchwidget/SwitchPreference;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lorg/jraf/android/backport/switchwidget/SwitchPreference;)V]
+  + NameAndType [a Lorg/jraf/android/backport/switchwidget/SwitchPreference;]
+  + NameAndType [access$100 (Lorg/jraf/android/backport/switchwidget/SwitchPreference;Ljava/lang/Object;)Z]
+  + NameAndType [setChecked (Z)V]
+  + NameAndType [valueOf (Z)Ljava/lang/Boolean;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/widget/CompoundButton;Z)V]
+  + Utf8 [(Lorg/jraf/android/backport/switchwidget/SwitchPreference;)V]
+  + Utf8 [(Lorg/jraf/android/backport/switchwidget/SwitchPreference;B)V]
+  + Utf8 [(Lorg/jraf/android/backport/switchwidget/SwitchPreference;Ljava/lang/Object;)Z]
+  + Utf8 [(Z)Ljava/lang/Boolean;]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lorg/jraf/android/backport/switchwidget/SwitchPreference;]
+  + Utf8 [a]
+  + Utf8 [access$100]
+  + Utf8 [android/widget/CompoundButton]
+  + Utf8 [android/widget/CompoundButton$OnCheckedChangeListener]
+  + Utf8 [java/lang/Boolean]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onCheckedChanged]
+  + Utf8 [org/jraf/android/backport/switchwidget/SwitchPreference]
+  + Utf8 [org/jraf/android/backport/switchwidget/a]
+  + Utf8 [setChecked]
+  + Utf8 [valueOf]
+
+Fields (count = 1):
+  + Field:        a Lorg/jraf/android/backport/switchwidget/SwitchPreference;
+    Access flags: 0x1010
+      = final synthetic org.jraf.android.backport.switchwidget.SwitchPreference a
+
+Methods (count = 3):
+  - Method:       <init>(Lorg/jraf/android/backport/switchwidget/SwitchPreference;)V
+    Access flags: 0x2
+      = private a(org.jraf.android.backport.switchwidget.SwitchPreference)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [org/jraf/android/backport/switchwidget/a.a Lorg/jraf/android/backport/switchwidget/SwitchPreference;]
+      [5] aload_0 v0
+      [6] invokespecial #10
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCheckedChanged(Landroid/widget/CompoundButton;Z)V
+    Access flags: 0x11
+      = public final void onCheckedChanged(android.widget.CompoundButton,boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 37, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [org/jraf/android/backport/switchwidget/a.a Lorg/jraf/android/backport/switchwidget/SwitchPreference;]
+      [4] iload_2 v2
+      [5] invokestatic #9
+        + Methodref [java/lang/Boolean.valueOf (Z)Ljava/lang/Boolean;]
+      [8] invokestatic #11
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.access$100 (Lorg/jraf/android/backport/switchwidget/SwitchPreference;Ljava/lang/Object;)Z]
+      [11] ifne +17 (target=28)
+      [14] aload_1 v1
+      [15] iload_2 v2
+      [16] ifne +7 (target=23)
+      [19] iconst_1
+      [20] goto +4 (target=24)
+      [23] iconst_0
+      [24] invokevirtual #8
+        + Methodref [android/widget/CompoundButton.setChecked (Z)V]
+      [27] return
+      [28] aload_0 v0
+      [29] getfield #7
+        + Fieldref [org/jraf/android/backport/switchwidget/a.a Lorg/jraf/android/backport/switchwidget/SwitchPreference;]
+      [32] iload_2 v2
+      [33] invokevirtual #12
+        + Methodref [org/jraf/android/backport/switchwidget/SwitchPreference.setChecked (Z)V]
+      [36] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Lorg/jraf/android/backport/switchwidget/SwitchPreference;B)V
+    Access flags: 0x1000
+      = synthetic a(org.jraf.android.backport.switchwidget.SwitchPreference,byte)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #13
+        + Methodref [org/jraf/android/backport/switchwidget/a.<init> (Lorg/jraf/android/backport/switchwidget/SwitchPreference;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: org/jraf/android/backport/switchwidget/TwoStatePreference
+  Superclass:    android/preference/Preference
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x421
+    = public abstract class org.jraf.android.backport.switchwidget.TwoStatePreference extends android.preference.Preference
+
+Interfaces (count = 0):
+
+Constant Pool (count = 158):
+  + Integer [16908304]
+  + Class [android/content/Context]
+  + Class [android/content/res/TypedArray]
+  + Class [android/preference/Preference]
+  + Class [android/view/View]
+  + Class [android/widget/TextView]
+  + Class [java/lang/Boolean]
+  + Class [java/lang/Object]
+  + Class [org/jraf/android/backport/switchwidget/TwoStatePreference]
+  + Class [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+  + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mChecked Z]
+  + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mDisableDependentsState Z]
+  + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mSummaryOff Ljava/lang/CharSequence;]
+  + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mSummaryOn Ljava/lang/CharSequence;]
+  + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.a Z]
+  + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+  + Methodref [android/content/res/TypedArray.getBoolean (IZ)Z]
+  + Methodref [android/preference/Preference.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Methodref [android/preference/Preference.onClick ()V]
+  + Methodref [android/preference/Preference.onRestoreInstanceState (Landroid/os/Parcelable;)V]
+  + Methodref [android/preference/Preference.onSaveInstanceState ()Landroid/os/Parcelable;]
+  + Methodref [android/preference/Preference.shouldDisableDependents ()Z]
+  + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  + Methodref [android/widget/TextView.getVisibility ()I]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [android/widget/TextView.setVisibility (I)V]
+  + Methodref [java/lang/Boolean.booleanValue ()Z]
+  + Methodref [java/lang/Boolean.valueOf (Z)Ljava/lang/Boolean;]
+  + Methodref [java/lang/Object.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.callChangeListener (Ljava/lang/Object;)Z]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.getContext ()Landroid/content/Context;]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.getPersistedBoolean (Z)Z]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.getSummary ()Ljava/lang/CharSequence;]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.isChecked ()Z]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.isPersistent ()Z]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.notifyChanged ()V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.notifyDependencyChange (Z)V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.persistBoolean (Z)Z]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.setChecked (Z)V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.setSummaryOff (Ljava/lang/CharSequence;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.setSummaryOn (Ljava/lang/CharSequence;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.shouldDisableDependents ()Z]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.<init> (Landroid/os/Parcelable;)V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.getSuperState ()Landroid/os/Parcelable;]
+  + NameAndType [<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + NameAndType [<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + NameAndType [<init> (Landroid/os/Parcelable;)V]
+  + NameAndType [a Z]
+  + NameAndType [booleanValue ()Z]
+  + NameAndType [callChangeListener (Ljava/lang/Object;)Z]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getBoolean (IZ)Z]
+  + NameAndType [getClass ()Ljava/lang/Class;]
+  + NameAndType [getContext ()Landroid/content/Context;]
+  + NameAndType [getPersistedBoolean (Z)Z]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getSummary ()Ljava/lang/CharSequence;]
+  + NameAndType [getSuperState ()Landroid/os/Parcelable;]
+  + NameAndType [getVisibility ()I]
+  + NameAndType [isChecked ()Z]
+  + NameAndType [isPersistent ()Z]
+  + NameAndType [mChecked Z]
+  + NameAndType [mDisableDependentsState Z]
+  + NameAndType [mSummaryOff Ljava/lang/CharSequence;]
+  + NameAndType [mSummaryOn Ljava/lang/CharSequence;]
+  + NameAndType [notifyChanged ()V]
+  + NameAndType [notifyDependencyChange (Z)V]
+  + NameAndType [onClick ()V]
+  + NameAndType [onRestoreInstanceState (Landroid/os/Parcelable;)V]
+  + NameAndType [onSaveInstanceState ()Landroid/os/Parcelable;]
+  + NameAndType [persistBoolean (Z)Z]
+  + NameAndType [setChecked (Z)V]
+  + NameAndType [setSummaryOff (Ljava/lang/CharSequence;)V]
+  + NameAndType [setSummaryOn (Ljava/lang/CharSequence;)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [setVisibility (I)V]
+  + NameAndType [shouldDisableDependents ()Z]
+  + NameAndType [valueOf (Z)Ljava/lang/Boolean;]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Landroid/os/Parcelable;]
+  + Utf8 [()Ljava/lang/CharSequence;]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(IZ)Z]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+  + Utf8 [(Landroid/content/res/TypedArray;I)Ljava/lang/Object;]
+  + Utf8 [(Landroid/os/Parcelable;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Z)Ljava/lang/Boolean;]
+  + Utf8 [(Z)V]
+  + Utf8 [(Z)Z]
+  + Utf8 [(ZLjava/lang/Object;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/CharSequence;]
+  + Utf8 [Z]
+  + Utf8 [a]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/res/TypedArray]
+  + Utf8 [android/preference/Preference]
+  + Utf8 [android/view/View]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [booleanValue]
+  + Utf8 [callChangeListener]
+  + Utf8 [equals]
+  + Utf8 [findViewById]
+  + Utf8 [getBoolean]
+  + Utf8 [getClass]
+  + Utf8 [getContext]
+  + Utf8 [getDisableDependentsState]
+  + Utf8 [getPersistedBoolean]
+  + Utf8 [getString]
+  + Utf8 [getSummary]
+  + Utf8 [getSummaryOff]
+  + Utf8 [getSummaryOn]
+  + Utf8 [getSuperState]
+  + Utf8 [getVisibility]
+  + Utf8 [isChecked]
+  + Utf8 [isPersistent]
+  + Utf8 [java/lang/Boolean]
+  + Utf8 [java/lang/Object]
+  + Utf8 [mChecked]
+  + Utf8 [mDisableDependentsState]
+  + Utf8 [mSummaryOff]
+  + Utf8 [mSummaryOn]
+  + Utf8 [notifyChanged]
+  + Utf8 [notifyDependencyChange]
+  + Utf8 [onClick]
+  + Utf8 [onGetDefaultValue]
+  + Utf8 [onRestoreInstanceState]
+  + Utf8 [onSaveInstanceState]
+  + Utf8 [onSetInitialValue]
+  + Utf8 [org/jraf/android/backport/switchwidget/TwoStatePreference]
+  + Utf8 [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+  + Utf8 [persistBoolean]
+  + Utf8 [setChecked]
+  + Utf8 [setDisableDependentsState]
+  + Utf8 [setSummaryOff]
+  + Utf8 [setSummaryOn]
+  + Utf8 [setText]
+  + Utf8 [setVisibility]
+  + Utf8 [shouldDisableDependents]
+  + Utf8 [syncSummaryView]
+  + Utf8 [valueOf]
+
+Fields (count = 4):
+  + Field:        mSummaryOn Ljava/lang/CharSequence;
+    Access flags: 0x2
+      = private java.lang.CharSequence mSummaryOn
+  + Field:        mSummaryOff Ljava/lang/CharSequence;
+    Access flags: 0x2
+      = private java.lang.CharSequence mSummaryOff
+  + Field:        mChecked Z
+    Access flags: 0x0
+      = boolean mChecked
+  + Field:        mDisableDependentsState Z
+    Access flags: 0x2
+      = private boolean mDisableDependentsState
+
+Methods (count = 20):
+  - Method:       <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    Access flags: 0x1
+      = public TwoStatePreference(android.content.Context,android.util.AttributeSet,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] iload_3 v3
+      [4] invokespecial #18
+        + Methodref [android/preference/Preference.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+      [7] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    Access flags: 0x1
+      = public TwoStatePreference(android.content.Context,android.util.AttributeSet)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] iconst_0
+      [4] invokespecial #32
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.<init> (Landroid/content/Context;Landroid/util/AttributeSet;I)V]
+      [7] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public TwoStatePreference(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aconst_null
+      [3] invokespecial #31
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+      [6] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick()V
+    Access flags: 0x4
+      = protected void onClick()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 35, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #19
+        + Methodref [android/preference/Preference.onClick ()V]
+      [4] aload_0 v0
+      [5] invokevirtual #37
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.isChecked ()Z]
+      [8] ifne +7 (target=15)
+      [11] iconst_1
+      [12] goto +4 (target=16)
+      [15] iconst_0
+      [16] istore_1 v1
+      [17] aload_0 v0
+      [18] iload_1 v1
+      [19] invokestatic #28
+        + Methodref [java/lang/Boolean.valueOf (Z)Ljava/lang/Boolean;]
+      [22] invokevirtual #33
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.callChangeListener (Ljava/lang/Object;)Z]
+      [25] ifne +4 (target=29)
+      [28] return
+      [29] aload_0 v0
+      [30] iload_1 v1
+      [31] invokevirtual #42
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.setChecked (Z)V]
+      [34] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setChecked(Z)V
+    Access flags: 0x1
+      = public void setChecked(boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 32, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mChecked Z]
+      [4] iload_1 v1
+      [5] ificmpeq +26 (target=31)
+      [8] aload_0 v0
+      [9] iload_1 v1
+      [10] putfield #11
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mChecked Z]
+      [13] aload_0 v0
+      [14] iload_1 v1
+      [15] invokevirtual #41
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.persistBoolean (Z)Z]
+      [18] pop
+      [19] aload_0 v0
+      [20] aload_0 v0
+      [21] invokevirtual #45
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.shouldDisableDependents ()Z]
+      [24] invokevirtual #40
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.notifyDependencyChange (Z)V]
+      [27] aload_0 v0
+      [28] invokevirtual #39
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.notifyChanged ()V]
+      [31] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       isChecked()Z
+    Access flags: 0x1
+      = public boolean isChecked()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mChecked Z]
+      [4] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       shouldDisableDependents()Z
+    Access flags: 0x1
+      = public boolean shouldDisableDependents()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 40, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #12
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mDisableDependentsState Z]
+      [4] ifeq +10 (target=14)
+      [7] aload_0 v0
+      [8] getfield #11
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mChecked Z]
+      [11] goto +15 (target=26)
+      [14] aload_0 v0
+      [15] getfield #11
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mChecked Z]
+      [18] ifne +7 (target=25)
+      [21] iconst_1
+      [22] goto +4 (target=26)
+      [25] iconst_0
+      [26] ifne +10 (target=36)
+      [29] aload_0 v0
+      [30] invokespecial #22
+        + Methodref [android/preference/Preference.shouldDisableDependents ()Z]
+      [33] ifeq +5 (target=38)
+      [36] iconst_1
+      [37] ireturn
+      [38] iconst_0
+      [39] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setSummaryOn(Ljava/lang/CharSequence;)V
+    Access flags: 0x1
+      = public void setSummaryOn(java.lang.CharSequence)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #14
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mSummaryOn Ljava/lang/CharSequence;]
+      [5] aload_0 v0
+      [6] invokevirtual #37
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.isChecked ()Z]
+      [9] ifeq +7 (target=16)
+      [12] aload_0 v0
+      [13] invokevirtual #39
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.notifyChanged ()V]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setSummaryOn(I)V
+    Access flags: 0x1
+      = public void setSummaryOn(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_0 v0
+      [2] invokevirtual #34
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.getContext ()Landroid/content/Context;]
+      [5] iload_1 v1
+      [6] invokevirtual #16
+        + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [9] invokevirtual #44
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.setSummaryOn (Ljava/lang/CharSequence;)V]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getSummaryOn()Ljava/lang/CharSequence;
+    Access flags: 0x1
+      = public java.lang.CharSequence getSummaryOn()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #14
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mSummaryOn Ljava/lang/CharSequence;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setSummaryOff(Ljava/lang/CharSequence;)V
+    Access flags: 0x1
+      = public void setSummaryOff(java.lang.CharSequence)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #13
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mSummaryOff Ljava/lang/CharSequence;]
+      [5] aload_0 v0
+      [6] invokevirtual #37
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.isChecked ()Z]
+      [9] ifne +7 (target=16)
+      [12] aload_0 v0
+      [13] invokevirtual #39
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.notifyChanged ()V]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setSummaryOff(I)V
+    Access flags: 0x1
+      = public void setSummaryOff(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_0 v0
+      [2] invokevirtual #34
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.getContext ()Landroid/content/Context;]
+      [5] iload_1 v1
+      [6] invokevirtual #16
+        + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [9] invokevirtual #43
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.setSummaryOff (Ljava/lang/CharSequence;)V]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getSummaryOff()Ljava/lang/CharSequence;
+    Access flags: 0x1
+      = public java.lang.CharSequence getSummaryOff()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #13
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mSummaryOff Ljava/lang/CharSequence;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getDisableDependentsState()Z
+    Access flags: 0x1
+      = public boolean getDisableDependentsState()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #12
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mDisableDependentsState Z]
+      [4] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setDisableDependentsState(Z)V
+    Access flags: 0x1
+      = public void setDisableDependentsState(boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] putfield #12
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mDisableDependentsState Z]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onGetDefaultValue(Landroid/content/res/TypedArray;I)Ljava/lang/Object;
+    Access flags: 0x4
+      = protected java.lang.Object onGetDefaultValue(android.content.res.TypedArray,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 3, stack = 3):
+      [0] aload_1 v1
+      [1] iload_2 v2
+      [2] iconst_0
+      [3] invokevirtual #17
+        + Methodref [android/content/res/TypedArray.getBoolean (IZ)Z]
+      [6] invokestatic #28
+        + Methodref [java/lang/Boolean.valueOf (Z)Ljava/lang/Boolean;]
+      [9] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onSetInitialValue(ZLjava/lang/Object;)V
+    Access flags: 0x4
+      = protected void onSetInitialValue(boolean,java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 27, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] ifeq +14 (target=16)
+      [5] aload_0 v0
+      [6] aload_0 v0
+      [7] getfield #11
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mChecked Z]
+      [10] invokevirtual #35
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.getPersistedBoolean (Z)Z]
+      [13] goto +10 (target=23)
+      [16] aload_2 v2
+      [17] checkcast #7
+        + Class [java/lang/Boolean]
+      [20] invokevirtual #27
+        + Methodref [java/lang/Boolean.booleanValue ()Z]
+      [23] invokevirtual #42
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.setChecked (Z)V]
+      [26] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       syncSummaryView(Landroid/view/View;)V
+    Access flags: 0x0
+      = void syncSummaryView(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 110, locals = 4, stack = 2):
+      [0] aload_1 v1
+      [1] ldc #1
+        + Integer [16908304]
+      [3] invokevirtual #23
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [6] checkcast #6
+        + Class [android/widget/TextView]
+      [9] dup
+      [10] astore_1 v1
+      [11] ifnull +98 (target=109)
+      [14] iconst_1
+      [15] istore_2 v2
+      [16] aload_0 v0
+      [17] getfield #11
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mChecked Z]
+      [20] ifeq +23 (target=43)
+      [23] aload_0 v0
+      [24] getfield #14
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mSummaryOn Ljava/lang/CharSequence;]
+      [27] ifnull +16 (target=43)
+      [30] aload_1 v1
+      [31] aload_0 v0
+      [32] getfield #14
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mSummaryOn Ljava/lang/CharSequence;]
+      [35] invokevirtual #25
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [38] iconst_0
+      [39] istore_2 v2
+      [40] goto +27 (target=67)
+      [43] aload_0 v0
+      [44] getfield #11
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mChecked Z]
+      [47] ifne +20 (target=67)
+      [50] aload_0 v0
+      [51] getfield #13
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mSummaryOff Ljava/lang/CharSequence;]
+      [54] ifnull +13 (target=67)
+      [57] aload_1 v1
+      [58] aload_0 v0
+      [59] getfield #13
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference.mSummaryOff Ljava/lang/CharSequence;]
+      [62] invokevirtual #25
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [65] iconst_0
+      [66] istore_2 v2
+      [67] iload_2 v2
+      [68] ifeq +19 (target=87)
+      [71] aload_0 v0
+      [72] invokevirtual #36
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.getSummary ()Ljava/lang/CharSequence;]
+      [75] dup
+      [76] astore_3 v3
+      [77] ifnull +10 (target=87)
+      [80] aload_1 v1
+      [81] aload_3 v3
+      [82] invokevirtual #25
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [85] iconst_0
+      [86] istore_2 v2
+      [87] bipush 8
+      [89] istore_3 v3
+      [90] iload_2 v2
+      [91] ifne +5 (target=96)
+      [94] iconst_0
+      [95] istore_3 v3
+      [96] iload_3 v3
+      [97] aload_1 v1
+      [98] invokevirtual #24
+        + Methodref [android/widget/TextView.getVisibility ()I]
+      [101] ificmpeq +8 (target=109)
+      [104] aload_1 v1
+      [105] iload_3 v3
+      [106] invokevirtual #26
+        + Methodref [android/widget/TextView.setVisibility (I)V]
+      [109] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onSaveInstanceState()Landroid/os/Parcelable;
+    Access flags: 0x4
+      = protected android.os.Parcelable onSaveInstanceState()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 33, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #21
+        + Methodref [android/preference/Preference.onSaveInstanceState ()Landroid/os/Parcelable;]
+      [4] astore_1 v1
+      [5] aload_0 v0
+      [6] invokevirtual #38
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.isPersistent ()Z]
+      [9] ifeq +5 (target=14)
+      [12] aload_1 v1
+      [13] areturn
+      [14] new #10
+        + Class [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+      [17] dup
+      [18] aload_1 v1
+      [19] invokespecial #46
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.<init> (Landroid/os/Parcelable;)V]
+      [22] dup
+      [23] astore_1 v1
+      [24] aload_0 v0
+      [25] invokevirtual #37
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.isChecked ()Z]
+      [28] putfield #15
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.a Z]
+      [31] aload_1 v1
+      [32] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onRestoreInstanceState(Landroid/os/Parcelable;)V
+    Access flags: 0x4
+      = protected void onRestoreInstanceState(android.os.Parcelable)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 44, locals = 2, stack = 2):
+      [0] aload_1 v1
+      [1] ifnull +15 (target=16)
+      [4] aload_1 v1
+      [5] invokevirtual #30
+        + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [8] ldc #10
+        + Class [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+      [10] invokevirtual #29
+        + Methodref [java/lang/Object.equals (Ljava/lang/Object;)Z]
+      [13] ifne +9 (target=22)
+      [16] aload_0 v0
+      [17] aload_1 v1
+      [18] invokespecial #20
+        + Methodref [android/preference/Preference.onRestoreInstanceState (Landroid/os/Parcelable;)V]
+      [21] return
+      [22] aload_1 v1
+      [23] checkcast #10
+        + Class [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+      [26] astore_1 v1
+      [27] aload_0 v0
+      [28] aload_1 v1
+      [29] invokevirtual #47
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.getSuperState ()Landroid/os/Parcelable;]
+      [32] invokespecial #20
+        + Methodref [android/preference/Preference.onRestoreInstanceState (Landroid/os/Parcelable;)V]
+      [35] aload_0 v0
+      [36] aload_1 v1
+      [37] getfield #15
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.a Z]
+      [40] invokevirtual #42
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference.setChecked (Z)V]
+      [43] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState
+  Superclass:    android/preference/Preference$BaseSavedState
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x20
+    = class org.jraf.android.backport.switchwidget.TwoStatePreference$SavedState extends android.preference.Preference$BaseSavedState
+
+Interfaces (count = 0):
+
+Constant Pool (count = 41):
+  + Class [android/os/Parcel]
+  + Class [android/preference/Preference$BaseSavedState]
+  + Class [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+  + Class [org/jraf/android/backport/switchwidget/b]
+  + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.CREATOR Landroid/os/Parcelable$Creator;]
+  + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.a Z]
+  + Methodref [android/os/Parcel.readInt ()I]
+  + Methodref [android/os/Parcel.writeInt (I)V]
+  + Methodref [android/preference/Preference$BaseSavedState.<init> (Landroid/os/Parcel;)V]
+  + Methodref [android/preference/Preference$BaseSavedState.<init> (Landroid/os/Parcelable;)V]
+  + Methodref [android/preference/Preference$BaseSavedState.writeToParcel (Landroid/os/Parcel;I)V]
+  + Methodref [org/jraf/android/backport/switchwidget/b.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/os/Parcel;)V]
+  + NameAndType [<init> (Landroid/os/Parcelable;)V]
+  + NameAndType [CREATOR Landroid/os/Parcelable$Creator;]
+  + NameAndType [a Z]
+  + NameAndType [readInt ()I]
+  + NameAndType [writeInt (I)V]
+  + NameAndType [writeToParcel (Landroid/os/Parcel;I)V]
+  + Utf8 [()I]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Parcel;)V]
+  + Utf8 [(Landroid/os/Parcel;I)V]
+  + Utf8 [(Landroid/os/Parcelable;)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [CREATOR]
+  + Utf8 [Code]
+  + Utf8 [Landroid/os/Parcelable$Creator;]
+  + Utf8 [Z]
+  + Utf8 [a]
+  + Utf8 [android/os/Parcel]
+  + Utf8 [android/preference/Preference$BaseSavedState]
+  + Utf8 [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+  + Utf8 [org/jraf/android/backport/switchwidget/b]
+  + Utf8 [readInt]
+  + Utf8 [writeInt]
+  + Utf8 [writeToParcel]
+
+Fields (count = 2):
+  + Field:        a Z
+    Access flags: 0x0
+      = boolean a
+  + Field:        CREATOR Landroid/os/Parcelable$Creator;
+    Access flags: 0x19
+      = public static final android.os.Parcelable$Creator CREATOR
+
+Methods (count = 4):
+  - Method:       <init>(Landroid/os/Parcel;)V
+    Access flags: 0x1
+      = public TwoStatePreference$SavedState(android.os.Parcel)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #9
+        + Methodref [android/preference/Preference$BaseSavedState.<init> (Landroid/os/Parcel;)V]
+      [5] aload_0 v0
+      [6] aload_1 v1
+      [7] invokevirtual #7
+        + Methodref [android/os/Parcel.readInt ()I]
+      [10] iconst_1
+      [11] ificmpne +7 (target=18)
+      [14] iconst_1
+      [15] goto +4 (target=19)
+      [18] iconst_0
+      [19] putfield #6
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.a Z]
+      [22] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       writeToParcel(Landroid/os/Parcel;I)V
+    Access flags: 0x1
+      = public void writeToParcel(android.os.Parcel,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] iload_2 v2
+      [3] invokespecial #11
+        + Methodref [android/preference/Preference$BaseSavedState.writeToParcel (Landroid/os/Parcel;I)V]
+      [6] aload_1 v1
+      [7] aload_0 v0
+      [8] getfield #6
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.a Z]
+      [11] ifeq +7 (target=18)
+      [14] iconst_1
+      [15] goto +4 (target=19)
+      [18] iconst_0
+      [19] invokevirtual #8
+        + Methodref [android/os/Parcel.writeInt (I)V]
+      [22] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Landroid/os/Parcelable;)V
+    Access flags: 0x1
+      = public TwoStatePreference$SavedState(android.os.Parcelable)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #10
+        + Methodref [android/preference/Preference$BaseSavedState.<init> (Landroid/os/Parcelable;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 0, stack = 2):
+      [0] new #4
+        + Class [org/jraf/android/backport/switchwidget/b]
+      [3] dup
+      [4] invokespecial #12
+        + Methodref [org/jraf/android/backport/switchwidget/b.<init> ()V]
+      [7] putstatic #5
+        + Fieldref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.CREATOR Landroid/os/Parcelable$Creator;]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: org/jraf/android/backport/switchwidget/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x30
+    = final class org.jraf.android.backport.switchwidget.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/os/Parcelable$Creator]
+
+Constant Pool (count = 21):
+  + Class [android/os/Parcelable$Creator]
+  + Class [java/lang/Object]
+  + Class [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+  + Class [org/jraf/android/backport/switchwidget/b]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.<init> (Landroid/os/Parcel;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/os/Parcel;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)[Ljava/lang/Object;]
+  + Utf8 [(Landroid/os/Parcel;)Ljava/lang/Object;]
+  + Utf8 [(Landroid/os/Parcel;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/os/Parcelable$Creator]
+  + Utf8 [createFromParcel]
+  + Utf8 [java/lang/Object]
+  + Utf8 [newArray]
+  + Utf8 [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+  + Utf8 [org/jraf/android/backport/switchwidget/b]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x0
+      = b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #5
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       newArray(I)[Ljava/lang/Object;
+    Access flags: 0x1051
+      = public final bridge synthetic java.lang.Object[] newArray(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 2, stack = 1):
+      [0] iload_1 v1
+      [1] anewarray #3
+        + Class [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    Access flags: 0x1011
+      = public final synthetic java.lang.Object createFromParcel(android.os.Parcel)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 2, stack = 3):
+      [0] new #3
+        + Class [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState]
+      [3] dup
+      [4] aload_1 v1
+      [5] invokespecial #6
+        + Methodref [org/jraf/android/backport/switchwidget/TwoStatePreference$SavedState.<init> (Landroid/os/Parcel;)V]
+      [8] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

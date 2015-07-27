@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\CODING\RS\library_pinnlistivew\src\main\res"/><source path="F:\CODING\RS\library_pinnlistivew\build\generated\res\rs\debug"/><source path="F:\CODING\RS\library_pinnlistivew\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="F:\CODING\RS\library_pinnlistivew\src\debug\res"/></dataSet><mergedItems/></merger>

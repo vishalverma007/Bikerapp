@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_itemDetails"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:elevation="100dp"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ITEM DETAILS"
+                    android:id="@+id/tv_card_head"
+                    android:paddingLeft="5dp"
+                    android:textSize="30dp"
+                    android:background="#ff9d3d"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/card_tv_customername"
+                    android:text="Customer Name"
+                    android:layout_marginTop="50dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#ff9d3d"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/card_tv_amount"
+                    android:text="Amount to be collected"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="5dp"
+                    android:layout_below="@+id/card_tv_customername"
+                    android:textColor="#ff9d3d"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/card_tv_CustomerPhoneno."
+                    android:text="Customer Phone No."
+                    android:layout_marginTop="150dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#ff9d3d"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/card_tv_CustomerAddress"
+                    android:text="Customer Address"
+                    android:layout_marginTop="200dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#ff9d3d"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Locality"
+                    android:id="@+id/card_tv_customerLocality"
+                    android:layout_marginTop="250dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#ff9d3d"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/card_tv_Customername"
+                    android:text="0"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/card_tv_Amount"
+                    android:text="0"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/card_tv_phonenno"
+                    android:text="0"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/card_tv_address"
+                    android:text="0"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/card_tv_locality"
+                    android:text="0"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_height="wrap_content"
+                    />
+
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Call Customer"
+                    android:id="@+id/call_customer_btn"
+                    android:elevation="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:gravity="center_horizontal"
+                    android:background="#ff9d3d"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/tvItemEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/no_items">
+    </ImageView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+org.jraf.android.backport.switchwidget.BuildConfig
+org.jraf.android.backport.switchwidget.Switch:
+    private static final int TOUCH_MODE_IDLE
+    private static final int TOUCH_MODE_DOWN
+    private static final int TOUCH_MODE_DRAGGING
+    private static final int SANS
+    private static final int SERIF
+    private static final int MONOSPACE

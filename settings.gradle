@@ -1,0 +1,6 @@
+include ':app', ':android-switch-backport'
+include ':devsmartAndroid'
+include ':library_pinnlistivew'
+include ':menudrawer'
+include ':cropLibrary'
+include ':circularImageView'
